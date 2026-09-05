@@ -27,4 +27,4 @@
 ## Links
 - 公司介绍页: https://flat-hill.github.io/pitch/
 - 在线 BP: https://flat-hill.github.io/flathill/
-- MCP（AI 客户端接入）: flathill-pitch-mcp（见 pitch 页方式 A）
+- MCP（AI 客户端接入）: https://flathill-pitch-mcp.flathill.workers.dev/mcp
