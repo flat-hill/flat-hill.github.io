@@ -27,4 +27,5 @@
 ## Links
 - 公司介绍页: https://flat-hill.github.io/pitch/
 - 在线 BP: https://flat-hill.github.io/flathill/
-- MCP（AI 客户端接入）: https://flathill-pitch-mcp.flathill.workers.dev/mcp
+- IR Skill（AI Agent 安装）: https://github.com/flat-hill/flat-hill-pitch-skill
+- MCP（支持 MCP 的客户端，海外）: https://flathill-pitch-mcp.flathill.workers.dev/mcp
