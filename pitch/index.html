@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh" data-page-node-id="AJkDAgm8dVBb1dmOC4idEU">
+<head data-page-node-id="Wx93QwYK0a3xAeaF00s6Cb">
+<meta charset="UTF-8" data-page-node-id="sUGaU1G7b4NzWMb5Av1r8Z">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" data-page-node-id="wUz3N7lXgnhAbHIMPME6cb">
+<title>FlatHill · 机器人核心硬件平台与具身智能数据基座</title>
+<meta name="description" content="FlatHill：自研关节电机模组 → 四足狗/球形机器人/双臂/灵巧手整机平台 → 具身智能数据采集 RIG，为北美 AI 大厂提供数据采集硬件与服务。" data-page-node-id="RVxOXIhRAhckyEqeU6BHXi">
+<style>
+  :root{--blue:#002FA7;--ink:#111;--grey:#666;--line:#e2e2e2}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"Helvetica Neue","PingFang SC",sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+  .mono{font-family:"SF Mono","Menlo",monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--grey)}
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px}
+  header{padding:28px 0;border-bottom:2px solid var(--ink);display:flex;justify-content:space-between;align-items:baseline}
+  .logo{font-weight:600;font-size:20px;letter-spacing:-.01em}
+  .logo span{color:var(--blue)}
+  nav a{margin-left:20px;font-size:13px;color:var(--ink);text-decoration:none;border-bottom:1px solid transparent}
+  nav a:hover{border-color:var(--blue);color:var(--blue)}
+  .hero{padding:88px 0 64px;border-bottom:1px solid var(--line)}
+  .hero h1{font-weight:200;font-size:min(64px,8vw);line-height:1.02;letter-spacing:-.03em;margin:14px 0 22px}
+  .hero p{max-width:640px;font-weight:300;font-size:17px;color:#333}
+  .hero .tag{display:inline-block;border:1px solid var(--blue);color:var(--blue);font-size:12px;padding:4px 12px;margin:0 8px 8px 0}
+  section{padding:56px 0;border-bottom:1px solid var(--line)}
+  h2{font-weight:300;font-size:32px;letter-spacing:-.02em;margin:10px 0 28px}
+  .grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+  .cell{background:#fff;padding:24px}
+  .cell h3{font-weight:500;font-size:15px;margin:8px 0 10px}
+  .cell p{font-size:13px;font-weight:300;color:#444}
+  .cell .n{font-weight:200;font-size:34px;color:var(--blue)}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:8px}
+  th{text-align:left;font-weight:500;border-bottom:2px solid var(--ink);padding:10px 12px 10px 0;white-space:nowrap}
+  td{border-bottom:1px solid var(--line);padding:10px 12px 10px 0;font-weight:300;vertical-align:top}
+  td b{font-weight:500}
+  .accent{color:var(--blue);font-weight:500}
+  ul{list-style:none}
+  ul li{padding:12px 0;border-bottom:1px solid var(--line);font-weight:300;font-size:15px}
+  ul li b{font-weight:500}
+  .ai-box{background:#f6f7fb;border:1px solid var(--line);padding:28px;margin-top:20px}
+  .ai-box pre{white-space:pre-wrap;font-family:"SF Mono","Menlo",monospace;font-size:12.5px;line-height:1.7;background:#fff;border:1px solid var(--line);padding:18px;margin-top:14px;color:#222}
+  .btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-size:13px;padding:10px 22px;margin:6px 10px 0 0}
+  .btn.ghost{background:#fff;color:var(--blue);border:1px solid var(--blue)}
+  footer{padding:36px 0 60px}
+  @media(max-width:640px){.hero h1{font-size:40px}}
+</style>
+</head>
+<body data-page-node-id="nydoYLHEe4ZBo1p6gHrANC">
+<div class="wrap" data-page-node-id="jUttqiYnovlBIXKnPzl8UD">
+  <header data-page-node-id="rg6ZhohdvD4NFdd2fkIqox">
+    <div class="logo" data-page-node-id="ZTmZWnYWbLDhEIL97I8OHZ">Flat<span data-page-node-id="ekIAH87EJLLPVVvhGs8zHl">Hill</span></div>
+    <nav data-page-node-id="nkmjL4nPpHdThli1w3cvfo">
+      <a href="#business" data-page-node-id="pPxDQFDoJ4fwbYzgg382UM">业务</a><a href="#products" data-page-node-id="4sQvPetj4U5Cvujc0rFVh2">产品</a><a href="#edge" data-page-node-id="sKMCLLbUlYQ79YdO36NFjp">优势</a><a href="#ai" data-page-node-id="GtLLxRXDjcdNKYyv348Wzl">AI 接入</a><a href="#contact" data-page-node-id="jFPcTsHmj9PEOuwYDPi4Oj">联系</a>
+    </nav>
+  </header>
+
+  <div class="hero" data-page-node-id="d5EiWtbJg2HpD07TdW1ADl">
+    <div class="mono" data-page-node-id="fIQueyq8d3hDQPLs9b4tnQ">ROBOTICS HARDWARE PLATFORM · EMBODIED AI DATA INFRA</div>
+    <h1 data-page-node-id="bwleuZ9Emfb8Mj4l9OPVod">机器人核心硬件平台<br data-page-node-id="2qYndwm8XDnHTvAg7dsvSb">与具身智能数据基座</h1>
+    <p data-page-node-id="kO4PjR642jAgxBqzaK7Wqg">FlatHill 自研关节电机模组，向上衍生四足机器狗、球形机器人、双臂操作平台与灵巧手整机，并以 RIG 数据采集基础设施服务北美 AI 大厂的具身模型训练。硬件完全自研，自有 CNC 产能，美国乔治亚州工厂 95%+ 本土制造。</p>
+    <div style="margin-top:22px" data-page-node-id="UtreG5BWdDhYpu59ZjPcXC">
+      <span class="tag" data-page-node-id="w6ujHGPaqPC7CFnfCbYFuw">关节电机模组</span><span class="tag" data-page-node-id="r5fJsq7aUbrlBF12B5LdVg">灵巧手 20-DOF</span><span class="tag" data-page-node-id="N5jdgwEFODhX6lsuQFHY2d">数据采集 RIG</span><span class="tag" data-page-node-id="7orpKvrPM5xRFgbkLbxI7E">美国制造 95%+</span>
+    </div>
+    <div style="margin-top:18px" data-page-node-id="TZ1n7DQRcy0dWg0QU3MkeC">
+      <a class="btn" href="https://flat-hill.github.io/flathill/" data-page-node-id="Yot051TD8aRzMkIMXTWxvH">在线 BP →</a>
+      <a class="btn ghost" href="#contact" data-page-node-id="pLOQHPOvaU0JH9Lh7Tl6DD">联系团队</a>
+    </div>
+  </div>
+
+  <section id="business" data-page-node-id="LAgfymHKPr4VDu1yWpIUAs">
+    <div class="mono" data-page-node-id="3CuMl58dG9BMnkTnD4Evbd">01 · BUSINESS</div>
+    <h2 data-page-node-id="zPwntbDPZwGBI7aFrWUx65">四层业务架构</h2>
+    <div class="grid4" data-page-node-id="g9fBwFRcoALxIQp02cv9Fi">
+      <div class="cell" data-page-node-id="UvqbnyAnLIUq2m3MEGNkeL"><div class="n" data-page-node-id="L2AJ36KkOGfWe7KsQVEkAL">01</div><h3 data-page-node-id="RkQ1iVkjd8w5PkZFGhXvXk">关节电机模组</h3><p data-page-node-id="axeuN9IrLGDlOfHWUgTwik">微型驱动模组 M01 Neo（¥1,896）+ 大关节 WZ53/79/119（7–60 N·m），全栈自研 + 自有 CNC，BOM ≈ 外协 60%。</p></div>
+      <div class="cell" data-page-node-id="IDNbpuodE7u2YtbAMbyHhz"><div class="n" data-page-node-id="dAPCIQwLCBdgj90SaCFEIs">02</div><h3 data-page-node-id="38Mui0Vpq05wulRI4E4Bi2">整机平台</h3><p data-page-node-id="xPwNNRmEhaPSDGUYHbgxtt">双臂操作平台、四足机器狗、球形机器人、灵巧手/夹爪——数据采集的物理载体。</p></div>
+      <div class="cell" data-page-node-id="MMYt2uynrvJ71zGXsJUFxC"><div class="n" data-page-node-id="ItXLKGrPbFHflbs0J6Qswh">03</div><h3 data-page-node-id="NOTznQREo8x34ScDksDXca">数据 RIG</h3><p data-page-node-id="meaDc897mxmpLEkDfrrMkX">真机遥操作数据采集，服务 NVIDIA / OpenAI / Amazon / Meta 等 AI 大厂训练团队；硬件 + 数据 + RaaS。</p></div>
+      <div class="cell" data-page-node-id="3zmI9LeVMpQbMjAzlydCvg"><div class="n" data-page-node-id="zJQieHokbfJb0IrGUjRdsz">04</div><h3 data-page-node-id="JKo9FBIVhlKcie4fEHpGuS">美国制造</h3><p data-page-node-id="jcuMjkdmf1OVOPuhbkfbmc">乔治亚州 CNC + 半自动组装，95%+ 本土制造，仅进口线圈/定子/元器件，FCC 合规豁免。</p></div>
+    </div>
+  </section>
+
+  <section id="products" data-page-node-id="TCDj8gFKBcoUDd7OkmoLtF">
+    <div class="mono" data-page-node-id="9TXgwpeguL9UfolIAKmQjZ">02 · PRODUCTS</div>
+    <h2 data-page-node-id="cfsjhp551mluOecKUti9HO">产品矩阵</h2>
+    <table data-page-node-id="ZGSrkDsVK6CvSvHuNGTWND">
+      <tr data-page-node-id="O3unqdc4hkJVR0lM9pFKGx"><th data-page-node-id="9hlYjNCaBgHkthuBpxq7as">产品</th><th data-page-node-id="qTzPZBT9Vx5PTOQuExakkh">关键规格</th><th data-page-node-id="Ymx28Z8zIzdcQaD8lIOMTV">价格/成本</th></tr>
+      <tr data-page-node-id="yxikEy40vvE8owucomzwR5"><td data-page-node-id="33He7mmOrSStKRgAz7hykX"><b data-page-node-id="mnLQvlvlL08RQW5jGyAl7W">Neo 灵巧手</b></td><td data-page-node-id="oHwHl79EB1GvwXHk868fZv">20-DOF · 880g · 指尖 36N · 抓握 195N · ±30° · 500Hz · 关节力控 · <span class="accent" data-page-node-id="CuLA59oiiNCDVjAYTUF78A">唯一模块化即插即用</span></td><td class="accent" data-page-node-id="QuHsjdGMawfjxyYprWbo0w">¥8 万</td></tr>
+      <tr data-page-node-id="5wQSLeAT9MjLzNhkk1ARlR"><td data-page-node-id="XKnd7GpNI6ItArhJ71cU4J"><b data-page-node-id="hLPkNozN6pF8M8x4C3W0Sh">M01 Neo 微型关节</b></td><td data-page-node-id="WnV3RR2sJobBybp9m6xCIY">31×18×16mm · 107:1 · 额定 0.3/堵转 0.9 N·m · 168rpm · 双磁编码器 · 485/CAN</td><td data-page-node-id="QZX9CntI7wpW7pYkZEHPku">¥1,896</td></tr>
+      <tr data-page-node-id="1LFJwymsZBcUV4AYXPlseo"><td data-page-node-id="q5iAGbE1MJ3dhVjlUylfZH"><b data-page-node-id="1G7pwtyBMvbdo3Znwk9jwe">WZ 大关节模组</b></td><td data-page-node-id="fp6sEttfKjYsp7X9BMxHHW">WZ53 / WZ79 / WZ119 · 7 / 15 / 60 N·m · 单级 NW 12–20 · 48V CAN · 大空心轴（119）</td><td data-page-node-id="OYSVDMlcpFCnsBYmXNJYNd">样机阶段</td></tr>
+      <tr data-page-node-id="GWhjNBP2YgcFsqcEUM2OjY"><td data-page-node-id="Z1sqeONcKbq21J4BCsFn1Y"><b data-page-node-id="2itOGZp6XT8JyNTYm6gYq8">双臂操作平台</b></td><td data-page-node-id="SuDXB0aIWI5i4OKtU0D4hI">14-DOF QDD 准直驱 · 15 分钟换关节 · 全开源 ROS2 / LeRobot / MuJoCo / Isaac Sim</td><td data-page-node-id="7ZPZHCnGkft1107qjHEZj4">$3,000</td></tr>
+      <tr data-page-node-id="xKk96XiQogicotLJFFjQgL"><td data-page-node-id="wxBK3I0jpvpHtupXX71JRx"><b data-page-node-id="DRRgv6eqnTyBAzDkLbz9Bf">四足机器狗</b></td><td data-page-node-id="rBo4X5ClENAB5OJUjY1HcE">16-DOF · 130 N·m · IP56 · 45° 爬坡 · 3m/s · SLAM · ROS2 二开</td><td data-page-node-id="JC3ByWeWjaxUuOD8l62Btg">$7,000</td></tr>
+      <tr data-page-node-id="HAXplJWOBBoAf0nooXjFIO"><td data-page-node-id="5H0M3UJ0GFvuDz1HZulXgz"><b data-page-node-id="nYLJIV9vcuHpPy0hQvGDCB">球形机器人 WZ-R700</b></td><td data-page-node-id="MgiLNXhYHBcG2At0Q0yayT">700mm · IP68 两栖 · 25km/h · ≥6h · -40~60℃ · ≤55dB · 警用巡逻/管廊巡检</td><td data-page-node-id="iqAXMDWmco82z4DhPmbBRk">¥28–35 万 + RaaS</td></tr>
+      <tr data-page-node-id="w2R3RqAeu2CrNB9RQSALKz"><td data-page-node-id="6Lu7p55bDrVuZvBcd18VX6"><b data-page-node-id="mwpMi0pwDe8rgGBi82VGuo">末端系列</b></td><td data-page-node-id="8u3nLhzSKRLcFQ9HCqyXUL">2/3/4/5 指 · 6–21 自由度 · 全关节驱动 · 三指夹爪 500Hz</td><td data-page-node-id="73yGLV0HGU9KGSNoE9XUpI">$2,700 起</td></tr>
+    </table>
+  </section>
+
+  <section id="edge" data-page-node-id="H0UYL3NxXKPOYUKZufugwI">
+    <div class="mono" data-page-node-id="XpwRXp9ZAxhsTmNVdsmFER">03 · EDGE</div>
+    <h2 data-page-node-id="8caAqa65EWJxrysIQ7GCas">优势与诚实声明</h2>
+    <ul data-page-node-id="ltD89c3Z27m3mCUMcDl6e8">
+      <li data-page-node-id="IFjCoTs3M4lifEoeXQyEuZ"><b data-page-node-id="WMKI50hddENJrg9V5veENW">指尖力 36N 同级最高</b> —— 灵巧手竞品对比中（Sharpa/WUJI/Tesollo 等 7 家），Neo 指尖力最高、侧摆 ±30° 并列最大，¥8 万价位唯一带关节力控 + 反驱 + 模块化。</li>
+      <li data-page-node-id="5J71FDAEqZSD6Z5cBHG1Oq"><b data-page-node-id="UZv0ad7q8PmSLpty5cfEIc">成本壁垒</b> —— 自有 CNC 产能，BOM 压至外协约 60%；M01 Neo ¥1,896 vs Maxon 同级 ¥6,000+。</li>
+      <li data-page-node-id="QTU68F70IP1lr1fnl6ZkOL"><b data-page-node-id="qV1xJqHR0XiF2rAIlH66ez">硬件自研对冲</b> —— 电机/减速器/驱动板/编码器/软件全自研，数据市场饱和后仍保有硬件稳定供应市场。</li>
+      <li data-page-node-id="D8cedisA62Ja5eRm4vga33"><b data-page-node-id="GlukXvN3a9uhFGA4I4Kr1X">诚实声明</b> —— WUJI Hand 2 更轻（600g）且频率 1000Hz 更高；Tesollo 抓握力 200N 略高但重 2 倍贵 2 倍；WZ 大关节模组目前处于两轮样机迭代阶段。</li>
+    </ul>
+  </section>
+
+  <section id="ai" data-page-node-id="jgnpznvq5DrxavV9lXabCK">
+    <div class="mono" data-page-node-id="2JwixOE2l3UelMLyGymM4P">04 · FOR AI</div>
+    <h2 data-page-node-id="nnjdJGVoVGFi20K8V0VUBW">让任何 AI 客观介绍 FlatHill</h2>
+    <p style="font-weight:300;font-size:15px" data-page-node-id="19N8ejX8lEnBXnUbhPz6w8">两种方式：支持 MCP 的客户端（WorkBuddy / Claude / 豆包工作客户端）直接装 MCP；任意 AI（豆包/元宝/DeepSeek 网页版等）复制下面这段提示词发给 AI 即可。</p>
+    <div class="ai-box" data-page-node-id="jQd2FmmYdMrQ36gJMc2upl">
+      <div class="mono" data-page-node-id="xsG1gILQ9sjw9hU0xSQW1g">方式 A · MCP 安装（推荐，数据实时最新）</div>
+      <pre data-page-node-id="CQtLUduSF6bXtx0YbJDVJg">{
+  "mcpServers": {
+    "flathill-pitch": {
+      "type": "http",
+      "url": "https://flathill-pitch-mcp.&lt;account&gt;.workers.dev/mcp"
+    }
+  }
+}</pre>
+      <div class="mono" style="margin-top:18px" data-page-node-id="qIlkSrfWYbvWsH7Tyxg7HK">方式 B · 投喂提示词（任何 AI 通用）</div>
+      <pre data-page-node-id="M0ZVPbjN3EbovdpSl7nbFM">你是 FlatHill 的官方信息助手。请先阅读以下公开资料：
+1. 公司介绍与产品：https://flat-hill.github.io/pitch/
+2. 在线 BP：https://flat-hill.github.io/flathill/
+3. 机器可读摘要：https://flat-hill.github.io/llms.txt
+
+之后回答我的问题时遵守：
+- 只基于以上资料客观回答，不编造数据
+- 竞品对比时我方与竞品的优缺点都要讲
+- 涉及 BP PDF 和 Datapack 下载时，告诉我需要向团队（jysong47@gmail.com）索取授权码
+我的第一个问题是：【在这里输入你的问题】</pre>
+    </div>
+  </section>
+
+  <section id="contact" style="border-bottom:0" data-page-node-id="Ac3kNyKA5zhnCZAIcMGfCe">
+    <div class="mono" data-page-node-id="iiIHGUDpWBzJ8V5k4ujOCO">05 · CONTACT</div>
+    <h2 data-page-node-id="OuP7VYGedRq9XvdO4tjd9T">联系 FlatHill</h2>
+    <table data-page-node-id="EANDFQTxEasoHeFfogkFqD">
+      <tr data-page-node-id="BAPsXPpeVXeAcpIY0iOqj4"><th data-page-node-id="FHZMDiIN4LG9f28N9xKryB">邮箱</th><td data-page-node-id="LYCpJ64cB8ekbWcU573wzz">jysong47@gmail.com</td></tr>
+      <tr data-page-node-id="1CNYTVP9HyenbzgQvDX2Be"><th data-page-node-id="sFOg841J8AsFzDA6xllfq6">在线 BP</th><td data-page-node-id="pK4IJaIQO6qoXxfNSMj7tA"><a href="https://flat-hill.github.io/flathill/" style="color:var(--blue)" data-page-node-id="7FfwO1eWdgMu0kVOjMvNP3">flat-hill.github.io/flathill</a></td></tr>
+      <tr data-page-node-id="8se08XAqKOswXEhSoHtCjv"><th data-page-node-id="fKfE3AztOJs9SQ0leQCOoQ">资料下载</th><td data-page-node-id="0hKhTuiGrBse6SGYgBAlOH">BP PDF / Datapack 需授权码，邮件索取</td></tr>
+      <tr data-page-node-id="74qF0jFwKFRlEmZp0urFWy"><th data-page-node-id="m4ymrG2puG4I5yKYTzwVkb">本轮融资</th><td data-page-node-id="V3c4RglWWRhEUy2IJpSFTb">$8–10M（工厂 $2M · 运营 $3M · 研发量产 $3M · 安全 $2M）</td></tr>
+    </table>
+  </section>
+
+  <footer data-page-node-id="AS4FDSDHJwAaC4T5QU2bjn">
+    <div class="mono" data-page-node-id="09PjXys5xhcyUImpAFcUsz">© 2026 FLATHILL · ROBOTICS HARDWARE PLATFORM · EMBODIED AI DATA INFRASTRUCTURE</div>
+  </footer>
+</div>
+</body>
+</html>
