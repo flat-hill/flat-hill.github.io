@@ -24,3 +24,9 @@
 - BOM planning data: https://flat-hill.github.io/flathill/bom-assumptions.json
 - Company page: https://flat-hill.github.io/pitch/
 - Contact: jysong47@gmail.com
+
+## Interactive investor story
+- Primary volume channel: U.S. robotics OEM programs. Applied-AI labs provide early paid validation. Integrators provide an expansion channel. These are target segments, not confirmed customers.
+- Commercial sequence: paid evaluation, design-in, repeat production orders, then ROSE and manufacturing services.
+- Market context: A3 reports $2.25B of North American robot orders in 2025. This is not FlatHill TAM.
+- Interactive revenue model: hypothetical programs * robots per program/year * modules per robot * module price. Defaults are 5 * 500 * 12 * $180 = $5.4M annual component revenue, with an assumed 30% gross margin. These are neither a forecast nor signed pipeline.
