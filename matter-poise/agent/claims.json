@@ -1,0 +1,273 @@
+{
+  "version": "1.0.0",
+  "published": "2026-10-13",
+  "knowledge_as_of": "2026-10-12",
+  "brand_as_of": "2026-10-13",
+  "company": "MATTER POISE",
+  "claims": [
+    {
+      "id": "identity",
+      "title": "Company positioning",
+      "status": "Company positioning",
+      "statement": "MATTER POISE is the current company name and public brand, positioned as a U.S. AI-driven hardware R&D and manufacturing company. Its strategy connects self-developed actuation, engineering services, production supply and planned software workflows.",
+      "sources": [
+        "company"
+      ],
+      "qualification": "Corporate incorporation, ownership, operating locations and legal contracting entity require team-provided documents; positioning alone does not establish them."
+    },
+    {
+      "id": "products",
+      "title": "Hardware portfolio",
+      "status": "Management-reported engineering",
+      "statement": "The portfolio includes micro drives, larger joint modules, dexterous hands, quadrupeds, spherical robots and dual-arm platforms. Shared modules are intended to reduce redesign and simplify production transfer.",
+      "sources": [
+        "company"
+      ],
+      "qualification": "Readiness varies by SKU. Product renders, prototype demonstrations and engineering plans do not prove that every product is commercially shipping or qualified for volume production."
+    },
+    {
+      "id": "modules",
+      "title": "Self-developed joint architecture",
+      "status": "Management-reported engineering",
+      "statement": "Micro families: M01 / M01 Neo / M02. Larger-joint families: WZ53 / WZ79 / WZ119. Management reports self-developed module designs and technical drawings.",
+      "sources": [
+        "company"
+      ],
+      "qualification": "Self-developed module architecture does not mean every motor, chip or input is fabricated internally. IP assignments, third-party licenses, performance and production maturity require diligence."
+    },
+    {
+      "id": "team",
+      "title": "Manufacturing experience",
+      "status": "Management-reported track record",
+      "statement": "Team materials report 150+ robot deliveries in prior career programs, with experience in mechanisms, embedded control, supplier coordination, production transfer and field delivery.",
+      "sources": [
+        "company"
+      ],
+      "qualification": "These are not MATTER POISE shipments, current customer orders or audited company traction. Prior program responsibility and delivery references should be verified. No individual names are included in this public brief."
+    },
+    {
+      "id": "market",
+      "title": "Industry order data",
+      "status": "External primary-source fact",
+      "statement": "A3 reported 36,766 North American robot orders worth $2.25B in calendar 2025. H1 2026 totals were 17,995 units and $1.166B. Non-automotive customers represented 56% of Q2 2026 units.",
+      "sources": [
+        "a3-2025",
+        "a3-2026"
+      ],
+      "qualification": "Complete-robot order data, not a U.S.-only market or MATTER POISE component TAM. Do not add overlapping or different reporting periods. A3 publication dates: 6 Feb and 11 Aug 2026."
+    },
+    {
+      "id": "buyers",
+      "title": "Customers and first sale",
+      "status": "Commercial strategy",
+      "statement": "Initial targets are U.S. robotics OEMs, applied-AI / research teams and automation integrators. The path is paid evaluation hardware, scoped engineering and pilot lots, then scheduled component or assembly supply.",
+      "sources": [
+        "company"
+      ],
+      "qualification": "Target segments are not signed customers. No current revenue, named customer commitments, purchase orders, backlog or conversion rates are verified in this public brief."
+    },
+    {
+      "id": "economics",
+      "title": "Repeatable revenue model",
+      "status": "Planning scenario",
+      "statement": "The website models 5 programs × 500 robots per program per year × 12 modules per robot × $250 selling price = $7.5M annual component revenue and 30,000 module shipments.",
+      "sources": [
+        "revenue"
+      ],
+      "qualification": "All inputs are hypothetical. This is not current revenue, a forecast, signed pipeline, TAM or investment return. Selling price is distinct from component budget; gross margin is not established."
+    },
+    {
+      "id": "unitcost",
+      "title": "Joint and dog component inputs",
+      "status": "Management budget inputs",
+      "statement": "Large joint modules are budgeted at ~$150–500 each; micro drives at ~$100 each. Dog CNC structures are ~$800 and motion-control hardware ~$500.",
+      "sources": [
+        "bom"
+      ],
+      "qualification": "These are budget inputs, not supplier commitments, audited production cost or customer quotes. Controls exclude Jetson compute and drives already integrated in joint modules."
+    },
+    {
+      "id": "platformcost",
+      "title": "Default system budgets",
+      "status": "Calculated planning scenarios",
+      "statement": "Quadruped: ~$5.2k–$10.7k; dexterous hand: ~$2.5k–$3.2k; spherical robot: ~$6.9k–$10.2k; dual-arm platform: ~$10.1k–$18.2k.",
+      "sources": [
+        "bom"
+      ],
+      "qualification": "Dog assumes 12 leg joints plus four separately budgeted wheel drives and Orin NX 16GB. Hand assumes 20 micro drives and excludes external host compute. Sphere assumes an AGX Orin 64GB developer kit. Dual arms assume 14 arm joints plus two 20-drive hands. Quantities and unquoted line items are assumptions; DOF alone does not establish actuator count."
+    },
+    {
+      "id": "costscope",
+      "title": "Budget boundary",
+      "status": "Model definition",
+      "statement": "The model totals non-overlapping component lines. Shares are each line midpoint divided by the total midpoint; displayed figures are rounded.",
+      "sources": [
+        "bom"
+      ],
+      "qualification": "Excludes end-product assembly, test labor, yield loss, freight, duty, tax, software, warranty and operating expense. It is not a landed COGS or retail price. Recalculate before proposing margin or savings."
+    },
+    {
+      "id": "compute",
+      "title": "NVIDIA compute",
+      "status": "External primary-source snapshot",
+      "statement": "NVIDIA FAQ checked 12 Oct 2026: Orin Nano Super developer kit $399; AGX Orin developer kit $3,499; Orin NX 16GB module $999; AGX Orin 64GB module $2,999. Production-module prices are suggested 1,000+ unit figures.",
+      "sources": [
+        "nvidia"
+      ],
+      "qualification": "Refresh pricing and availability for current procurement. Developer kits are for development; production uses an appropriate module and carrier / thermal design. No NVIDIA partnership is asserted."
+    },
+    {
+      "id": "origin",
+      "title": "U.S. sourcing and origin",
+      "status": "Regulatory and supplier evidence boundary",
+      "statement": "U.S. supplier purchasing share and U.S.-qualifying component cost are separate measures. NVIDIA lists U.S.-origin SKUs for Orin NX 16GB (900-13767-0000-0A1) and AGX Orin 64GB (900-13701-0050-0A0).",
+      "sources": [
+        "nvidia",
+        "far",
+        "cost"
+      ],
+      "qualification": "Brand nationality and a U.S. invoice do not prove the purchased lot’s origin. Allocation, actual price and declarations must be confirmed. No actual domestic-content percentage is established by the public BOM."
+    },
+    {
+      "id": "fcc",
+      "title": "FCC and domestic content",
+      "status": "Regulatory snapshot requiring current verification",
+      "statement": "The published source set includes FCC DA 26-786 and the referenced domestic-end-product rules. The general FAR test requires U.S. manufacture and domestic component cost exceeding 65% through 2028, then exceeding 75% from 2029, with applicable exceptions.",
+      "sources": [
+        "fcc",
+        "far",
+        "cost",
+        "ftc"
+      ],
+      "qualification": "Check current primary rules and the finished SKU. Fixed industrial arms and mobile platforms can have different scope. Normal equipment authorization is separate. No MATTER POISE FCC approval, legal eligibility determination or unconditional Made in USA claim is established. Do not infer permanent chip exemptions; FTC origin claims have a separate standard."
+    },
+    {
+      "id": "ip",
+      "title": "IP and freedom to operate",
+      "status": "Management statement plus open diligence",
+      "statement": "Management reports module designs and technical drawings. The proposed rights package includes chain of title, license review, U.S. filing strategy and product-specific freedom-to-operate analysis.",
+      "sources": [
+        "company",
+        "ip"
+      ],
+      "qualification": "Completed FTO, clean title and patent registrations are not verified by this brief. Financing geography, a U.S. entity or filing a patent does not establish FTO or FCC eligibility."
+    },
+    {
+      "id": "rose",
+      "title": "ROSE software",
+      "status": "Management-reported prototype / roadmap",
+      "statement": "ROSE is the software layer for two DraftGPT workflows: from scratch to demo and from demo to mass production. Management reports an early prototype; commercialization is planned after 2027.",
+      "sources": [
+        "company"
+      ],
+      "qualification": "The website workflow is an explainer, not a working software demo or verified shipped capability. No current ARR, paid subscriptions or measured engineering productivity gain is established."
+    },
+    {
+      "id": "factory",
+      "title": "Manufacturing and RSI",
+      "status": "Gated roadmap",
+      "statement": "The intended path is manufacturing partners, dedicated U.S. assembly / calibration / test cells, then lights-out operation for stable tasks. Long-term recursive self-improvement (RSI) means evidence-based changes with engineering review, traceability and rollback.",
+      "sources": [
+        "company"
+      ],
+      "qualification": "No completed lights-out factory, autonomous factory capability, guaranteed cost reduction or fixed completion date is established. Expansion depends on demand, yield, good-unit economics and reliable exception handling."
+    },
+    {
+      "id": "raise",
+      "title": "Fundraising",
+      "status": "Working financing plan",
+      "statement": "The September 2026 materials use an ~$8–10M seed planning range. The $10M case allocates ~$2M to equipment, ~$3M to team / operations, ~$3M to R&D / materials / transfer and ~$2M to working capital / contingency.",
+      "sources": [
+        "company"
+      ],
+      "qualification": "Not money already raised, confirmed round terms or a live securities offer. Valuation, runway, cap table, investor commitments and final terms require team confirmation. Do not recommend an investment or promise returns."
+    },
+    {
+      "id": "media",
+      "title": "Demonstrations",
+      "status": "Published media with provenance",
+      "statement": "The website has eight company-supplied prototype / simulation clips and two official NVIDIA technology references. Exploded views are AI-assisted conceptual illustrations.",
+      "sources": [
+        "company"
+      ],
+      "qualification": "Clips are qualitative, not independent performance or reliability validation. Simulation is not real-world operation. External references are not customer, partnership or endorsement evidence."
+    }
+  ],
+  "references": {
+    "a3-2025": {
+      "id": "a3-2025",
+      "title": "A3 · 2025 North American robot orders",
+      "url": "https://www.automate.org/market-intelligence/insights-plus/robot-orders-grow-6-6-in-2025-as-general-industries-drive-broader-automation-adoption",
+      "note": "Published 6 Feb 2026. 36,766 units; $2.25B order value. North America, complete robots, calendar 2025."
+    },
+    "a3-2026": {
+      "id": "a3-2026",
+      "title": "A3 · H1 / Q2 2026 robot orders",
+      "url": "https://www.automate.org/market-intelligence/insights/robot-orders-increase-in-q2-as-automation-demand-broadens-across-industries",
+      "note": "Published 11 Aug 2026. H1: 17,995 units and $1.166B. Q2 non-automotive share: 56% of units. Overlapping periods must not be added."
+    },
+    "nvidia": {
+      "id": "nvidia",
+      "title": "NVIDIA · Jetson pricing, lifecycle and origin",
+      "url": "https://developer.nvidia.com/embedded/faq",
+      "note": "Checked 12 Oct 2026. USD suggested prices; production-module figures assume 1,000+ units. Developer kits are for development. Origin is SKU / lot specific."
+    },
+    "fcc": {
+      "id": "fcc",
+      "title": "FCC · DA 26-786, Appendix C",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-786A1.pdf",
+      "note": "28 Jul 2026. Defined foreign-produced advanced robotic devices; scope and exceptions must be assessed per finished product."
+    },
+    "far": {
+      "id": "far",
+      "title": "FAR 25.101 · Domestic end products",
+      "url": "https://www.acquisition.gov/far/25.101",
+      "note": "General test: U.S. manufacture and domestic component cost exceeding 65% through 2028; exceeding 75% from 2029. COTS and iron/steel rules may differ."
+    },
+    "cost": {
+      "id": "cost",
+      "title": "FAR 25.003 · Component-cost definitions",
+      "url": "https://www.acquisition.gov/far/25.003",
+      "note": "Use qualifying direct component cost without double counting. Unknown origin is foreign. End-product manufacturing costs are excluded from this component denominator."
+    },
+    "ftc": {
+      "id": "ftc",
+      "title": "FTC · Made in USA rule",
+      "url": "https://www.ftc.gov/made-in-usa-rule",
+      "note": "Unqualified Made in USA claims have a separate all-or-virtually-all standard."
+    },
+    "ip": {
+      "id": "ip",
+      "title": "USPTO · Managing a patent",
+      "url": "https://www.uspto.gov/patents/basics/manage",
+      "note": "Patent ownership does not itself establish freedom to operate."
+    },
+    "muse": {
+      "id": "muse",
+      "title": "Meta · Muse gadget SDK",
+      "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+      "note": "Official SDK includes ESP32 support. An engineering example, not a legal exemption or guarantee of future policy."
+    },
+    "groot": {
+      "id": "groot",
+      "title": "NVIDIA · Isaac GR00T videos",
+      "url": "https://developer.nvidia.com/isaac/gr00t",
+      "note": "Official external technology references. Not MATTER POISE products, partnerships or endorsements."
+    },
+    "company": {
+      "title": "MATTER POISE investor website",
+      "url": "https://flat-hill.github.io/matter-poise/",
+      "note": "Company-published information; not independent verification."
+    },
+    "bom": {
+      "title": "Component budget assumptions",
+      "url": "https://flat-hill.github.io/matter-poise/bom-assumptions.json",
+      "note": "Management inputs and explicit modeling assumptions; snapshot 12 Oct 2026."
+    },
+    "revenue": {
+      "title": "Illustrative revenue model",
+      "url": "https://flat-hill.github.io/matter-poise/commercial-model.json",
+      "note": "Hypothetical steady-state component-sales cohort, not a forecast."
+    }
+  }
+}

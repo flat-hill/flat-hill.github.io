@@ -1,0 +1,19 @@
+{
+  "name": "MATTER POISE Agent",
+  "version": "1.0.0",
+  "published": "2026-10-13",
+  "knowledge_as_of": "2026-10-12",
+  "canonical_url": "https://flat-hill.github.io/matter-poise/agent/",
+  "capability": "Public, portable investor Q&A briefing; no hosted inference or live company messaging endpoint",
+  "prompt_url": "https://flat-hill.github.io/matter-poise/agent/start.txt",
+  "brief_url": "https://flat-hill.github.io/matter-poise/agent/brief.txt",
+  "claims_url": "https://flat-hill.github.io/matter-poise/agent/claims.json",
+  "skill_url": "https://flat-hill.github.io/matter-poise/agent/SKILL.md",
+  "skill_package_url": "https://flat-hill.github.io/matter-poise/agent/matter-poise-agent.zip",
+  "human_handoff": "https://flat-hill.github.io/matter-poise/#bookroadshow",
+  "files": {
+    "brief.txt": "7afa76cc2af64624268fa98d8a0e795160bd3e50c5e44fb904e2b16e2f02bb0e",
+    "claims.json": "7bb6fce2a5a052d6db54e3e81515d14274f25bd56a6400aa3ccd1245420d61cc",
+    "matter-poise-agent.zip": "d4b826ceade2e314af0dccc3bc879ac93554fb48d4795bd3ef9796651cad2e57"
+  }
+}

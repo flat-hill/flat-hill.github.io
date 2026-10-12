@@ -1,0 +1,80 @@
+[
+  {
+    "id": "joint-bench",
+    "title": "Micro drive \u00b7 bench motion",
+    "kind": "Prototype test",
+    "src": "media/joint-bench.mp4",
+    "poster": "media/joint-bench.jpg",
+    "source": "Company-supplied DexHand presentation; extracted animation. Qualitative demonstration, not an independently verified performance test."
+  },
+  {
+    "id": "joint-load",
+    "title": "Micro drive \u00b7 load fixture",
+    "kind": "Prototype test",
+    "src": "media/joint-load.mp4",
+    "poster": "media/joint-load.jpg",
+    "source": "Company-supplied DexHand presentation; extracted animation. Qualitative demonstration, not an independently verified performance test."
+  },
+  {
+    "id": "hand-motion",
+    "title": "Dexterous hand \u00b7 coordinated motion",
+    "kind": "Prototype demonstration",
+    "src": "media/hand-motion.mp4",
+    "poster": "media/hand-motion.jpg",
+    "source": "Company-supplied DexHand presentation; extracted animation. Qualitative demonstration, not an independently verified performance test."
+  },
+  {
+    "id": "hand-fingers",
+    "title": "Dexterous hand \u00b7 finger articulation",
+    "kind": "Prototype demonstration",
+    "src": "media/hand-fingers.mp4",
+    "poster": "media/hand-fingers.jpg",
+    "source": "Company-supplied DexHand presentation; extracted animation. Qualitative demonstration, not an independently verified performance test."
+  },
+  {
+    "id": "hand-profile",
+    "title": "Dexterous hand \u00b7 mechanism profile",
+    "kind": "Prototype demonstration",
+    "src": "media/hand-profile.mp4",
+    "poster": "media/hand-profile.jpg",
+    "source": "Company-supplied DexHand presentation; extracted animation. Qualitative demonstration, not an independently verified performance test."
+  },
+  {
+    "id": "hand-sequence",
+    "title": "Dexterous hand \u00b7 motion sequence",
+    "kind": "Prototype demonstration",
+    "src": "media/hand-sequence.mp4",
+    "poster": "media/hand-sequence.jpg",
+    "source": "Company-supplied DexHand presentation; extracted animation. Qualitative demonstration, not an independently verified performance test."
+  },
+  {
+    "id": "sim-cube",
+    "title": "In-hand manipulation \u00b7 simulation",
+    "kind": "Simulation",
+    "src": "media/sim-cube.mp4",
+    "poster": "media/sim-cube.jpg",
+    "source": "Company-supplied DexHand presentation; extracted animation. Qualitative demonstration, not an independently verified performance test."
+  },
+  {
+    "id": "sim-batch",
+    "title": "Parallel manipulation environments",
+    "kind": "Simulation",
+    "src": "media/sim-batch.mp4",
+    "poster": "media/sim-batch.jpg",
+    "source": "Company-supplied DexHand presentation; extracted animation. Qualitative demonstration, not an independently verified performance test."
+  },
+  {
+    "id": "groot-intro",
+    "title": "Isaac GR00T \u00b7 foundation-model introduction",
+    "kind": "External reference",
+    "youtube": "m1CH-mgpdYg",
+    "source": "NVIDIA official GR00T page. Third-party technology; no MATTER POISE affiliation implied."
+  },
+  {
+    "id": "groot-action",
+    "title": "Isaac GR00T \u00b7 robotics demonstration",
+    "kind": "External reference",
+    "youtube": "yvDDpQZliY8",
+    "source": "Embedded by NVIDIA on its official GR00T page. Third-party demonstration, not MATTER POISE performance."
+  }
+]

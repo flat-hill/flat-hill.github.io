@@ -1,0 +1,11 @@
+{
+  "status": "Hypothetical steady-state component revenue; not forecast, signed pipeline or TAM",
+  "programs": 5,
+  "robots_per_program_per_year": 500,
+  "modules_per_robot": 12,
+  "module_selling_price_usd": 250,
+  "annual_module_shipments": 30000,
+  "annual_component_revenue_usd": 7500000,
+  "margin": "Not estimated without validated landed COGS, production yield and support expense",
+  "excluded": "Whole-robot, software, engineering and manufacturing-service revenues"
+}

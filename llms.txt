@@ -1,6 +1,14 @@
-# FlatHill
-A U.S. AI-driven hardware R&D and manufacturing company in development.
-Investor website: https://flat-hill.github.io/flathill/
-Sections: Market, Product, BizModel, Pipeline, Fundraising, TeamPage, BookRoadshow.
-Self-developed joint architectures, hardware platforms, planned ROSE workflows and staged U.S. manufacturing. Product maturity varies. Prices are budget scenarios, not quotes. Country of origin requires SKU-specific evidence. No named customer, regulatory approval or revenue forecast is claimed.
-Sources: https://flat-hill.github.io/flathill/sources.html
+# MATTER POISE
+
+A U.S. AI-driven hardware R&D and manufacturing company.
+
+## Investor Q&A
+- [MATTER POISE Agent](https://flat-hill.github.io/matter-poise/agent/): published briefing, answer policy, evidence register and portable Skill.
+- [Plain-text briefing](https://flat-hill.github.io/matter-poise/agent/brief.txt): self-contained dated knowledge and balanced response guidance.
+- [Claims JSON](https://flat-hill.github.io/matter-poise/agent/claims.json): facts, management statements, assumptions and qualifications.
+- [Skill](https://flat-hill.github.io/matter-poise/agent/SKILL.md): compatible-agent instructions.
+- [Website](https://flat-hill.github.io/matter-poise/): products, BOM scenarios, commercial model, roadmap and financing plan.
+- [Sources](https://flat-hill.github.io/matter-poise/sources.html): primary-source directory.
+- [Human handoff](https://flat-hill.github.io/matter-poise/#bookroadshow): email meeting request.
+
+AI assistance does not constitute team confirmation, verified traction, legal advice or a live team connection.
