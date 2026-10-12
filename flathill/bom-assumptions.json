@@ -1,0 +1,257 @@
+{
+  "status": "Illustrative planning assumptions, not actual BOM or legal determination",
+  "denominator": "Cost of direct components, excluding manufacture of the end product",
+  "products": [
+    {
+      "key": "dog",
+      "title": "Quadruped: localize the highest-value assemblies.",
+      "name": "Quadruped",
+      "parts": [
+        [
+          "Joint / leg assemblies",
+          42,
+          42
+        ],
+        [
+          "Chassis and structures",
+          16,
+          16
+        ],
+        [
+          "Compute and sensing",
+          14,
+          10
+        ],
+        [
+          "Battery assembly",
+          12,
+          12
+        ],
+        [
+          "Control / power boards",
+          10,
+          0
+        ],
+        [
+          "Harness and connectors",
+          6,
+          0
+        ]
+      ],
+      "pins": [
+        [
+          13,
+          42
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          49,
+          10
+        ],
+        [
+          45,
+          63
+        ],
+        [
+          64,
+          50
+        ],
+        [
+          51,
+          79
+        ]
+      ],
+      "note": "Joint assemblies are the largest dependency. Imported finished joints cannot become domestic merely through a U.S. reseller.",
+      "zh": "机器狗示例把关节/腿部组件设为 42% 成本。80% 方案依赖该部分和其他组件确实符合美国制造认定。全部关节如果不能计入国内，比例会从 80% 降到 38%。"
+    },
+    {
+      "key": "hand",
+      "title": "Dexterous hand: cost lives in the micro joints.",
+      "name": "Dexterous hand",
+      "parts": [
+        [
+          "Micro joint modules",
+          48,
+          48
+        ],
+        [
+          "Finger / palm mechanics",
+          22,
+          22
+        ],
+        [
+          "Tactile / force sensing",
+          12,
+          2
+        ],
+        [
+          "Control electronics",
+          10,
+          0
+        ],
+        [
+          "Wrist and harness",
+          8,
+          8
+        ]
+      ],
+      "pins": [
+        [
+          16,
+          48
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          42,
+          9
+        ],
+        [
+          84,
+          51
+        ],
+        [
+          53,
+          81
+        ]
+      ],
+      "note": "A shared micro-drive design concentrates cost engineering, calibration and replacement parts in one module family.",
+      "zh": "灵巧手拆解为微型关节、手指与掌部结构、传感、控制板和腕部线束。占比是设计预算，不能引用为现有产品真实 BOM。微关节占 48%，是成本优化和原产地认定重点。"
+    },
+    {
+      "key": "arms",
+      "title": "Dual arms: reuse joints, links and test fixtures.",
+      "name": "Dual-arm platform",
+      "parts": [
+        [
+          "Joint modules",
+          44,
+          44
+        ],
+        [
+          "Links and housings",
+          18,
+          18
+        ],
+        [
+          "End effectors",
+          12,
+          12
+        ],
+        [
+          "Control / compute",
+          10,
+          0
+        ],
+        [
+          "Power / harness",
+          10,
+          0
+        ],
+        [
+          "Pedestal and base",
+          6,
+          6
+        ]
+      ],
+      "pins": [
+        [
+          8,
+          24
+        ],
+        [
+          23,
+          50
+        ],
+        [
+          21,
+          80
+        ],
+        [
+          50,
+          12
+        ],
+        [
+          62,
+          56
+        ],
+        [
+          49,
+          90
+        ]
+      ],
+      "note": "A fixed industrial arm configuration has a different FCC scope analysis from a mobile robot carrying the same arm.",
+      "zh": "双臂可复用关节、连杆与工装。固定式工业机器人在当前相关 FCC 定义中有排除条款，但无线、电磁兼容和安全等其他要求仍应单独判断。装到移动底盘后的系统要重新分析。"
+    },
+    {
+      "key": "orb",
+      "title": "Spherical robot: separate mobility from payload.",
+      "name": "Spherical robot",
+      "parts": [
+        [
+          "Shell and structure",
+          24,
+          24
+        ],
+        [
+          "Pendulum drive assembly",
+          24,
+          24
+        ],
+        [
+          "Stabilization / flywheel",
+          14,
+          14
+        ],
+        [
+          "Battery assembly",
+          18,
+          18
+        ],
+        [
+          "Compute / sensing",
+          12,
+          0
+        ],
+        [
+          "Power boards / harness",
+          8,
+          0
+        ]
+      ],
+      "pins": [
+        [
+          9,
+          47
+        ],
+        [
+          28,
+          51
+        ],
+        [
+          42,
+          48
+        ],
+        [
+          56,
+          50
+        ],
+        [
+          79,
+          51
+        ],
+        [
+          68,
+          55
+        ]
+      ],
+      "note": "A common drive core can support multiple sensing payloads. Origin and authorization follow the shipped configuration.",
+      "zh": "球形机器人以外壳、摆锤驱动、飞轮稳定、电池、传感计算和功率线束分组。AI 爆炸图只解释结构，不是正式 CAD 或实际装配图。IP68 等未经检测的指标不写成已认证事实。"
+    }
+  ]
+}
