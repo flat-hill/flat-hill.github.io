@@ -1,0 +1,70 @@
+[
+  {
+    "id": "hand",
+    "name": "Dexterous hands",
+    "short": "Dexterity",
+    "line": "Small movements.\nNew possibilities.",
+    "image": "hand-w.jpg",
+    "type": "Manipulation hardware",
+    "description": "A compact mechanical foundation for grasping, articulation and embodied-AI research. Built around our micro-drive architecture.",
+    "detail": "Discuss hand configuration, drive integration, sensing interfaces and the acceptance tests for your application.",
+    "uses": [
+      "Manipulation research",
+      "End-effector development",
+      "System integration"
+    ],
+    "stage": "Prototype and engineering program",
+    "video": "hand-motion"
+  },
+  {
+    "id": "dog",
+    "name": "Quadruped platform",
+    "short": "Mobility",
+    "line": "A different way\nto move forward.",
+    "image": "dog.jpg",
+    "type": "Mobile robotics",
+    "description": "A wheeled quadruped architecture that brings actuation, structure and embedded control into one development platform.",
+    "detail": "Define terrain, payload, compute, power and control requirements with the engineering team before selecting a configuration.",
+    "uses": [
+      "Locomotion development",
+      "Payload integration",
+      "Mobile robotics research"
+    ],
+    "stage": "Engineering platform",
+    "video": null
+  },
+  {
+    "id": "orb",
+    "name": "Spherical robot",
+    "short": "Spherical",
+    "line": "Motion,\nreconsidered.",
+    "image": "orb-w.jpg",
+    "type": "Alternative mobility",
+    "description": "An enclosed spherical architecture for exploring a different relationship between mechanics, stabilization and movement.",
+    "detail": "Explore shell design, stabilization, power and AGX-class compute integration as a scoped development program.",
+    "uses": [
+      "Mobility research",
+      "Controls development",
+      "Compute integration"
+    ],
+    "stage": "Engineering platform",
+    "video": null
+  },
+  {
+    "id": "arms",
+    "name": "Dual-arm platform",
+    "short": "Dual arm",
+    "line": "Two arms.\nOne coordinated system.",
+    "image": "arm-w.jpg",
+    "type": "Coordinated manipulation",
+    "description": "An integration platform for coordinated arm motion and end-effector development, using the same modular actuation foundation.",
+    "detail": "Work with the team on reach, joint configuration, end effectors, controls and application-specific verification.",
+    "uses": [
+      "Manipulation research",
+      "End-effector integration",
+      "Coordinated controls"
+    ],
+    "stage": "Engineering platform",
+    "video": null
+  }
+]

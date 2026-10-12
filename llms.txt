@@ -2,12 +2,18 @@
 
 A U.S. AI-driven hardware R&D and manufacturing company.
 
+## Company website
+- [Official website](https://flat-hill.github.io/): hardware, ROSE, manufacturing approach and company contact.
+- [Hardware](https://flat-hill.github.io/company/hardware/): joint modules and engineering platforms.
+- [ROSE](https://flat-hill.github.io/company/rose/): AI-assisted engineering system in development.
+- [Manufacturing](https://flat-hill.github.io/company/manufacturing/): engineering approach and planned U.S. production path.
+
 ## Investor Q&A
 - [MATTER POISE Agent](https://flat-hill.github.io/matter-poise/agent/): published briefing, answer policy, evidence register and portable Skill.
 - [Plain-text briefing](https://flat-hill.github.io/matter-poise/agent/brief.txt): self-contained dated knowledge and balanced response guidance.
 - [Claims JSON](https://flat-hill.github.io/matter-poise/agent/claims.json): facts, management statements, assumptions and qualifications.
 - [Skill](https://flat-hill.github.io/matter-poise/agent/SKILL.md): compatible-agent instructions.
-- [Website](https://flat-hill.github.io/matter-poise/): products, BOM scenarios, commercial model, roadmap and financing plan.
+- [Online investor presentation](https://flat-hill.github.io/matter-poise/): products, BOM scenarios, commercial model, roadmap and financing plan.
 - [Sources](https://flat-hill.github.io/matter-poise/sources.html): primary-source directory.
 - [Human handoff](https://flat-hill.github.io/matter-poise/#bookroadshow): email meeting request.
 
