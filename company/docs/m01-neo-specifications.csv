@@ -1,0 +1,13 @@
+﻿Model,Parameter,Value,Status,Source,Note,Revision
+M01 Neo,Rated torque,0.3 N·m,Reported,S1 · slide 18,,MP-PRODUCTS-2026.10-r1
+M01 Neo,Stall torque,0.9 N·m,Reported,S1 · slide 18,Stall torque is not a continuous operating rating.,MP-PRODUCTS-2026.10-r1
+M01 Neo,Rated speed,168 rpm,Reported,S1 · slide 18,,MP-PRODUCTS-2026.10-r1
+M01 Neo,Envelope,31 × 18 × 16 mm,Reported,S1 · slide 18,,MP-PRODUCTS-2026.10-r1
+M01 Neo,Supply voltage,12 V,Reported,S1 · slide 18,,MP-PRODUCTS-2026.10-r1
+M01 Neo,Maximum bus current,2 A,Reported,S1 · slide 18,,MP-PRODUCTS-2026.10-r1
+M01 Neo,Reduction ratio,107:1,Reported,S1 · slide 18,,MP-PRODUCTS-2026.10-r1
+M01 Neo,Transmission,Planetary + fixed-axis gears,Reported,S1 · slide 18,,MP-PRODUCTS-2026.10-r1
+M01 Neo,Motor,PMSM brushless,Reported,S1 · slide 18,,MP-PRODUCTS-2026.10-r1
+M01 Neo,Communication,RS-485 / CAN,Reported,S1 · slide 18,"Protocol, pinout and firmware version require confirmation.",MP-PRODUCTS-2026.10-r1
+M01 Neo,Feedback,Dual magnetic encoders,Reported,S1 · slide 18,,MP-PRODUCTS-2026.10-r1
+M01 Neo,Mass,Not published,Pending,S1 · slide 18,,MP-PRODUCTS-2026.10-r1

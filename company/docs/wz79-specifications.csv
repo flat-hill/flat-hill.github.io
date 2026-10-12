@@ -1,0 +1,13 @@
+﻿Model,Parameter,Value,Status,Source,Note,Revision
+WZ79,Rated torque target,15 N·m,Target,S2 · pages 1–3,,MP-PRODUCTS-2026.10-r1
+WZ79,Outer diameter,79 mm,Target,S2 · pages 1–3,,MP-PRODUCTS-2026.10-r1
+WZ79,Mass target,500 g,Target,S2 · pages 1–3,,MP-PRODUCTS-2026.10-r1
+WZ79,Supply voltage,48 V,Target,S2 · pages 1–3,,MP-PRODUCTS-2026.10-r1
+WZ79,Reduction ratio,12–20:1,Target,S2 · pages 1–3,Final ratio requires calculation and prototype testing.,MP-PRODUCTS-2026.10-r1
+WZ79,Transmission,Single-stage NW,Target,S2 · pages 1–3,,MP-PRODUCTS-2026.10-r1
+WZ79,Motor baseline,7613 inner-rotor frameless,Target,S2 · pages 1–3,Purchased motor in the prototype baseline.,MP-PRODUCTS-2026.10-r1
+WZ79,Shaft architecture,Non-hollow,Target,S2 · pages 1–3,,MP-PRODUCTS-2026.10-r1
+WZ79,Communication,CAN,Target,S2 · pages 1–3,,MP-PRODUCTS-2026.10-r1
+WZ79,Feedback,Input + output position sensing,Target,S2 · pages 1–3,,MP-PRODUCTS-2026.10-r1
+WZ79,Rated speed,Pending unit confirmation,Pending,S2 · page 3,Source lists 80 without a unit; no rpm value is published here.,MP-PRODUCTS-2026.10-r1
+WZ79,Production qualification,Not established by this source,Pending,S2 · pages 1–2,,MP-PRODUCTS-2026.10-r1

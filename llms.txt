@@ -18,3 +18,8 @@ A U.S. AI-driven hardware R&D and manufacturing company.
 - [Human handoff](https://flat-hill.github.io/matter-poise/#bookroadshow): email meeting request.
 
 AI assistance does not constitute team confirmation, verified traction, legal advice or a live team connection.
+
+## Product documentation
+- [Product center](https://flat-hill.github.io/company/products/): 11 model snapshots, source-based specs and comparison.
+- [Documentation](https://flat-hill.github.io/company/docs/): handbook PDF, parameter CSVs, integration guide and source register.
+- [Structured product data](https://flat-hill.github.io/company/catalog.json): reported values, design targets, pending values and source conflicts kept distinct.

@@ -1,0 +1,13 @@
+﻿Model,Parameter,Value,Status,Source,Note,Revision
+Spherical R700,Body diameter,700 mm,Target,S4 · page 2,,MP-PRODUCTS-2026.10-r1
+Spherical R700,System mass,90 kg,Target,S4 · page 2,,MP-PRODUCTS-2026.10-r1
+Spherical R700,Payload,15 kg,Target,S4 · page 2,,MP-PRODUCTS-2026.10-r1
+Spherical R700,Battery energy,"2,400 Wh",Target,S4 · page 2,,MP-PRODUCTS-2026.10-r1
+Spherical R700,Supply voltage,48 V,Target,S4 · page 2,,MP-PRODUCTS-2026.10-r1
+Spherical R700,Working duration,≥6 h,Target,S4 · page 2,"Patrol, monitoring or low-speed cruise conditions.",MP-PRODUCTS-2026.10-r1
+Spherical R700,Maximum speed,25 km/h,Target,S4 · page 3,,MP-PRODUCTS-2026.10-r1
+Spherical R700,Cruise speed,10 km/h,Target,S4 · page 3,,MP-PRODUCTS-2026.10-r1
+Spherical R700,Maximum slope,17°,Target,S4 · page 3,Hard-surface target; wet terrain requires derating.,MP-PRODUCTS-2026.10-r1
+Spherical R700,Ingress protection,IP68,Target,"S4 · pages 2, 4",No configuration-specific certification is established by the brief.,MP-PRODUCTS-2026.10-r1
+Spherical R700,Obstacle height,Unresolved: 100 / 200 mm,Conflict,S4 · pages 3–4,Motion table says 100 mm; summary says 200 mm. Do not use either as an accepted limit.,MP-PRODUCTS-2026.10-r1
+Spherical R700,Interfaces,Power / Ethernet / CAN / serial,Target,S4 · page 4,,MP-PRODUCTS-2026.10-r1

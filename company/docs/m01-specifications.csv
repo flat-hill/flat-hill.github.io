@@ -1,0 +1,13 @@
+﻿Model,Parameter,Value,Status,Source,Note,Revision
+M01,Rated torque,0.5 N·m,Reported,S1 · slide 9,,MP-PRODUCTS-2026.10-r1
+M01,Stall torque,1.5 N·m,Reported,S1 · slide 9,Stall torque is not a continuous operating rating.,MP-PRODUCTS-2026.10-r1
+M01,Rated speed,113 rpm,Reported,S1 · slide 9,,MP-PRODUCTS-2026.10-r1
+M01,Envelope,29 × 23 × 17.5 mm,Reported,S1 · slide 9,,MP-PRODUCTS-2026.10-r1
+M01,Supply voltage,12 V,Reported,S1 · slide 9,,MP-PRODUCTS-2026.10-r1
+M01,Maximum bus current,2 A,Reported,S1 · slide 9,,MP-PRODUCTS-2026.10-r1
+M01,Reduction ratio,220:1,Reported,S1 · slide 9,,MP-PRODUCTS-2026.10-r1
+M01,Transmission,Planetary gearbox,Reported,S1 · slide 9,,MP-PRODUCTS-2026.10-r1
+M01,Motor,PMSM brushless,Reported,S1 · slide 9,,MP-PRODUCTS-2026.10-r1
+M01,Communication,RS-485 / CAN,Reported,S1 · slide 9,"Protocol, pinout and firmware version require confirmation.",MP-PRODUCTS-2026.10-r1
+M01,Feedback,Dual magnetic encoders,Reported,S1 · slide 9,,MP-PRODUCTS-2026.10-r1
+M01,Mass,Not published,Pending,S1 · slide 9,,MP-PRODUCTS-2026.10-r1

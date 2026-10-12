@@ -1,0 +1,12 @@
+﻿Model,Parameter,Value,Status,Source,Note,Revision
+Dual-arm platform,Degrees of freedom,14 total / 7 per arm,Reported,S5 · page 1,,MP-PRODUCTS-2026.10-r1
+Dual-arm platform,Mass per arm,5.5 kg,Reported,S5 · page 1,,MP-PRODUCTS-2026.10-r1
+Dual-arm platform,Reach per arm,633 mm,Reported,S5 · page 1,,MP-PRODUCTS-2026.10-r1
+Dual-arm platform,Joint allocation per arm,3 shoulder / 1 elbow / 3 wrist,Reported,S5 · page 1,,MP-PRODUCTS-2026.10-r1
+Dual-arm platform,Joint interface,CAN,Reported,S5 · page 1,,MP-PRODUCTS-2026.10-r1
+Dual-arm platform,Structure,Aluminum + printed composite covers,Reported,S5 · page 1,,MP-PRODUCTS-2026.10-r1
+Dual-arm platform,Control architecture,QDD / compliant-control concept,Reported,S5 · page 1,,MP-PRODUCTS-2026.10-r1
+Dual-arm platform,Software references,ROS 2 / Python / MuJoCo / Isaac Sim,Reported,S5 · page 1,Listed by the source; release artifacts and compatibility are to be confirmed.,MP-PRODUCTS-2026.10-r1
+Dual-arm platform,Rated payload,Not published,Pending,S5 · page 1,,MP-PRODUCTS-2026.10-r1
+Dual-arm platform,Repeatability,Not published,Pending,S5 · page 1,,MP-PRODUCTS-2026.10-r1
+Dual-arm platform,Released SDK / CAD,Request access and license terms,Pending,S5 · page 1,,MP-PRODUCTS-2026.10-r1

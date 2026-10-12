@@ -1,0 +1,11 @@
+﻿Model,Parameter,Value,Status,Source,Note,Revision
+Dexterous hand 21,Active degrees of freedom,21,Reported,S1 · slide 15,,MP-PRODUCTS-2026.10-r1
+Dexterous hand 21,Finger count,5,Reported,S1 · slide 15,,MP-PRODUCTS-2026.10-r1
+Dexterous hand 21,Body mass,"1,650 g",Reported,S1 · slide 15,,MP-PRODUCTS-2026.10-r1
+Dexterous hand 21,Rated pinch force,40 N,Reported,S1 · slide 15,Source terminology; test geometry and conditions need confirmation.,MP-PRODUCTS-2026.10-r1
+Dexterous hand 21,Rated enveloping grasp force,120 N,Reported,S1 · slide 15,,MP-PRODUCTS-2026.10-r1
+Dexterous hand 21,Supply voltage,12 V,Reported,S1 · slide 15,,MP-PRODUCTS-2026.10-r1
+Dexterous hand 21,Maximum current,20 A,Reported,S1 · slide 15,,MP-PRODUCTS-2026.10-r1
+Dexterous hand 21,Communication,RS-485,Reported,S1 · slide 15,,MP-PRODUCTS-2026.10-r1
+Dexterous hand 21,Control frequency,320 Hz,Reported,S1 · slide 15,,MP-PRODUCTS-2026.10-r1
+Dexterous hand 21,CAD / firmware release,Request the matching revision,Pending,S1 · slide 15,,MP-PRODUCTS-2026.10-r1

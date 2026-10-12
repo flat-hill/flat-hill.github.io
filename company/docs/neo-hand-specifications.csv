@@ -1,0 +1,11 @@
+﻿Model,Parameter,Value,Status,Source,Note,Revision
+Neo hand,Active degrees of freedom,20,Reported,S1 · slide 23,,MP-PRODUCTS-2026.10-r1
+Neo hand,Finger count,5,Reported,S1 · slide 23,,MP-PRODUCTS-2026.10-r1
+Neo hand,Body mass,900 g,Reported,S1 · slide 23,,MP-PRODUCTS-2026.10-r1
+Neo hand,Rated pinch force,20 N,Reported,S1 · slide 23,Source terminology; test geometry and conditions need confirmation.,MP-PRODUCTS-2026.10-r1
+Neo hand,Rated enveloping grasp force,60 N,Reported,S1 · slide 23,,MP-PRODUCTS-2026.10-r1
+Neo hand,Supply voltage,12 V,Reported,S1 · slide 23,,MP-PRODUCTS-2026.10-r1
+Neo hand,Maximum current,15 A,Reported,S1 · slide 23,,MP-PRODUCTS-2026.10-r1
+Neo hand,Communication,RS-485,Reported,S1 · slide 23,,MP-PRODUCTS-2026.10-r1
+Neo hand,Control frequency,320 Hz,Reported,S1 · slide 23,,MP-PRODUCTS-2026.10-r1
+Neo hand,CAD / firmware release,Request the matching revision,Pending,S1 · slide 23,,MP-PRODUCTS-2026.10-r1
