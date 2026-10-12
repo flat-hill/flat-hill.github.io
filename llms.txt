@@ -1,32 +1,6 @@
 # FlatHill
-
-> FlatHill is developing a U.S. robotics hardware supply platform based on proprietary joint module designs and manufacturing expertise.
-
-## Products and strategy
-- Micro-drive families: M01, M01 Neo and M02. Larger joint families: WZ53, WZ79 and WZ119. Maturity varies by SKU. Large-joint values in source material are design targets.
-- Platform families: dexterous hands, quadrupeds, spherical robots and fixed dual-arm systems.
-- Phase 1: component supply, paid engineering and documented U.S. manufacturing using qualified global inputs.
-- Phase 2, after 2027: intended ROSE software workflows from scratch to demo and from demo to mass production, with staged U.S. production cells. Management reports an early prototype; no verified feature list is available in this presentation.
-- Phase 3: controlled recursive improvement of hardware and manufacturing processes, subject to engineering validation and release approval.
-
-## Evidence and assumptions
-- All BOM allocations in the investor deck are illustrative design budgets. The 80% domestic component-cost target is not an audited achieved percentage or an equipment authorization.
-- U.S.-supplier purchasing spend is different from qualifying domestic component cost.
-- The FCC definition of foreign-produced refers to FAR 25.101(a). The general cost test is above 65% through 2028 and above 75% from 2029, with applicable exceptions and a U.S. manufacture requirement.
-- No completed FCC clearance, reviewed FTO opinion, current customer contracts or FlatHill shipment totals are established by the deck.
-- Team-provided 150+ prior-career robot deliveries are not FlatHill sales.
-- The $8–10M financing range is an existing September 2026 working plan, not a closed round. Roadmap dates are planning assumptions.
-
-## Links
-- Investor presentation: https://flat-hill.github.io/flathill/
-- PDF: https://flat-hill.github.io/downloads/flathill-investor-2026.pdf
-- Sources and assumptions: https://flat-hill.github.io/flathill/sources.html
-- BOM planning data: https://flat-hill.github.io/flathill/bom-assumptions.json
-- Company page: https://flat-hill.github.io/pitch/
-- Contact: jysong47@gmail.com
-
-## Interactive investor story
-- Primary volume channel: U.S. robotics OEM programs. Applied-AI labs provide early paid validation. Integrators provide an expansion channel. These are target segments, not confirmed customers.
-- Commercial sequence: paid evaluation, design-in, repeat production orders, then ROSE and manufacturing services.
-- Market context: A3 reports $2.25B of North American robot orders in 2025. This is not FlatHill TAM.
-- Interactive revenue model: hypothetical programs * robots per program/year * modules per robot * module price. Defaults are 5 * 500 * 12 * $180 = $5.4M annual component revenue, with an assumed 30% gross margin. These are neither a forecast nor signed pipeline.
+A U.S. AI-driven hardware R&D and manufacturing company in development.
+Investor website: https://flat-hill.github.io/flathill/
+Sections: Market, Product, BizModel, Pipeline, Fundraising, TeamPage, BookRoadshow.
+Self-developed joint architectures, hardware platforms, planned ROSE workflows and staged U.S. manufacturing. Product maturity varies. Prices are budget scenarios, not quotes. Country of origin requires SKU-specific evidence. No named customer, regulatory approval or revenue forecast is claimed.
+Sources: https://flat-hill.github.io/flathill/sources.html

@@ -1,103 +1,11 @@
 {
-  "status": "Planning scenario, not forecast or actual pipeline",
-  "default": {
-    "programs": 5,
-    "volume": 500,
-    "modules": 12,
-    "asp": 180,
-    "margin": 30
-  },
-  "formula": "annual revenue = programs * robots per program per year * modules per robot * module ASP",
-  "gross_profit": "annual revenue * gross margin",
-  "segments": [
-    {
-      "id": "oem",
-      "label": "Robotics OEMs",
-      "stage": "PRIMARY VOLUME PATH",
-      "title": "Win a place in the customer’s production design.",
-      "buyer": "Hardware / motion-control engineering lead, with procurement approval.",
-      "need": "A repeatable actuator that meets torque, thermal, size and cost requirements.",
-      "offer": "Paid joint evaluation kits, integration support and a qualified production SKU.",
-      "contract": "Evaluation purchase order, then engineering statement of work and scheduled component supply.",
-      "proof": "Customer acceptance tests, design release, origin records and a production purchase order.",
-      "expand": "More units of the same module, then additional joints and robot programs.",
-      "why": "Shared modules reduce redesign effort and give the buyer a manufacturing transfer path."
-    },
-    {
-      "id": "labs",
-      "label": "AI & research teams",
-      "stage": "EARLY PAID VALIDATION",
-      "title": "Sell usable hardware for the next experiment.",
-      "buyer": "Robotics research lead, lab manager or applied-AI engineering team.",
-      "need": "An accessible hand or arm platform that can be integrated, repaired and modified.",
-      "offer": "Hand / arm development kits, spares, interfaces and paid setup support.",
-      "contract": "Hardware purchase plus optional integration work. Research purchases do not imply future volume.",
-      "proof": "A paid delivery and an accepted experimental workflow, followed by a repeat purchase.",
-      "expand": "Additional rigs, replacement modules and later ROSE workflow pilots.",
-      "why": "Modular hardware creates a direct feedback channel for engineering and reliability improvements."
-    },
-    {
-      "id": "integrators",
-      "label": "Automation integrators",
-      "stage": "EXPANSION CHANNEL",
-      "title": "Deliver a subsystem that fits a customer application.",
-      "buyer": "Integrator engineering director or a robot OEM working with an end customer.",
-      "need": "A configurable subsystem with a stable supply path and a clear support boundary.",
-      "offer": "Configured joint, hand or arm assemblies. Mobile platforms enter after product-specific qualification.",
-      "contract": "Paid engineering milestones, assembly orders and agreed spares / support terms.",
-      "proof": "Site acceptance, system-level qualification and a repeatable bill of materials.",
-      "expand": "Replication across sites and service inventory, then manufacturing capacity and ROSE.",
-      "why": "FlatHill supplies reusable hardware while the integrator owns application deployment."
-    }
-  ],
-  "commercial_stages": [
-    {
-      "id": "evaluate",
-      "label": "01 Evaluate",
-      "stage": "ENTRY / COMPONENTS",
-      "title": "Turn interest into a paid hardware evaluation.",
-      "buyer": "Robotics OEMs and applied-AI teams with a defined engineering problem.",
-      "cash": "Evaluation-kit revenue",
-      "deliver": "A selected module or development kit, documented interfaces and a test procedure.",
-      "contract": "A purchase order for the evaluation hardware, with separately scoped integration support.",
-      "gate": "The buyer accepts the engineering results and funds the next integration step.",
-      "measure": "Paid evaluations, time to first working integration and accepted test results."
-    },
-    {
-      "id": "design",
-      "label": "02 Design in",
-      "stage": "CONVERSION / CUSTOMER PROGRAM",
-      "title": "Become part of the customer’s released design.",
-      "buyer": "A buyer that has validated the module and is preparing a product or pilot build.",
-      "cash": "Engineering fees + pilot hardware",
-      "deliver": "Customer-specific interfaces, a frozen BOM and a pilot production package.",
-      "contract": "Engineering milestones, change-control terms and a pilot-lot purchase order.",
-      "gate": "The customer approves the design, supplier qualification and production acceptance criteria.",
-      "measure": "Design wins, pilot yield, quote-to-order conversion and cost per good unit."
-    },
-    {
-      "id": "repeat",
-      "label": "03 Repeat",
-      "stage": "SCALE / PRODUCTION SUPPLY",
-      "title": "Convert design wins into scheduled shipments.",
-      "buyer": "OEM production teams and integrators replicating a validated configuration.",
-      "cash": "Recurring component / assembly sales",
-      "deliver": "Qualified modules or assemblies with serial traceability and agreed spares support.",
-      "contract": "Scheduled purchase orders or supply agreements with volume, lead-time and quality terms.",
-      "gate": "Repeat orders and contribution economics justify dedicated U.S. capacity.",
-      "measure": "Repeat-order share, on-time delivery, realized gross margin and warranty returns."
-    },
-    {
-      "id": "expand",
-      "label": "04 Expand",
-      "stage": "AFTER 2027 / ROSE + MANUFACTURING",
-      "title": "Sell the workflow and production capacity around the hardware.",
-      "buyer": "Existing hardware customers with repeat engineering and manufacturing needs.",
-      "cash": "ROSE subscriptions + manufacturing fees",
-      "deliver": "Validated software workflows and qualified production cells with a clear responsibility boundary.",
-      "contract": "Software or service agreements after pilot acceptance. Capacity reservations only against actual demand.",
-      "gate": "Customers complete paid workflows and the cells meet quality and unit-economics targets.",
-      "measure": "Software renewal, attach rate, engineering hours saved and cell utilization."
-    }
-  ]
+  "status": "Hypothetical steady-state component revenue; not forecast, signed pipeline or TAM",
+  "programs": 5,
+  "robots_per_program_per_year": 500,
+  "modules_per_robot": 12,
+  "module_selling_price_usd": 250,
+  "annual_module_shipments": 30000,
+  "annual_component_revenue_usd": 7500000,
+  "margin": "Not estimated without validated landed COGS, production yield and support expense",
+  "excluded": "Whole-robot, software, engineering and manufacturing-service revenues"
 }
