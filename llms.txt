@@ -9,7 +9,7 @@ Robotics & Intelligent Machines. Matter, poised to act.
 - [Engineering & Integration](https://flat-hill.github.io/company/engineering/): engineering, buildability, testing, serviceability and repeatability.
 
 ## Public technical references
-- [Model catalog](https://flat-hill.github.io/company/models/): eleven model and platform snapshots.
+- [Model catalog](https://flat-hill.github.io/company/products/#models): eleven model and platform snapshots.
 - [Documentation](https://flat-hill.github.io/company/docs/): handbook, CSVs, integration guide and source register.
 - [Structured product data](https://flat-hill.github.io/company/catalog.json): source values, design targets, pending values and conflicts remain distinct.
 Detailed CAD, SDK, firmware, test evidence and manufacturing packages require a project-specific team handoff; no authenticated portal is offered here.
