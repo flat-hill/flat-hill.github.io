@@ -4,6 +4,7 @@ Robotics & Intelligent Machines. Matter, poised to act.
 ## Company website
 - [Company](https://flat-hill.github.io/company/about/): company purpose and team experience.
 - [Products](https://flat-hill.github.io/company/products/): GROUNDWISE quadruped systems, WAYROUND spherical systems, FlatHill dexterous manipulation end-effectors.
+- [Dual-arm platform](https://flat-hill.github.io/company/products/dual-arm/): coordinated manipulation and end-effector integration platform with model specifications.
 - [ROSE](https://flat-hill.github.io/company/rose/): proprietary AI-assisted engineering system in development.
 - [Engineering & Integration](https://flat-hill.github.io/company/engineering/): engineering, buildability, testing, serviceability and repeatability.
 
