@@ -11,7 +11,12 @@ const films={
  'joint-bench':{title:'Micro drive · bench motion',kind:'Prototype test'},
  'joint-load':{title:'Micro drive · load fixture',kind:'Prototype test'},
  'sim-cube':{title:'In-hand manipulation',kind:'Simulation'},
- 'sim-batch':{title:'Parallel manipulation environments',kind:'Simulation'}
+ 'sim-batch':{title:'Parallel manipulation environments',kind:'Simulation'},
+ "groundwise-demo-1":{"title": "GROUNDWISE \u00b7 Indoor mobility", "kind": "Prototype demonstration"},
+ "groundwise-demo-2":{"title": "GROUNDWISE \u00b7 Wheel-legged motion \u00b7 extended demo", "kind": "Prototype demonstration"},
+ "groundwise-demo-3":{"title": "GROUNDWISE \u00b7 Mobility and balance", "kind": "Prototype demonstration"},
+ "groundwise-demo-4":{"title": "GROUNDWISE \u00b7 Ride-on prototype demonstration", "kind": "Prototype demonstration"},
+ "flathill-demo":{"title": "FlatHill \u00b7 Finger articulation \u00b7 new prototype demo", "kind": "Prototype demonstration"}
 };
 const dialog=$('.film-dialog'),video=$('video',dialog);let filmTrigger;
 $$('[data-film]').forEach(b=>b.addEventListener('click',()=>{const id=b.dataset.film,f=films[id];if(!f)return;filmTrigger=b;$('#film-title').textContent=f.title;$('.film-caption').textContent=f.kind+' · Company-supplied footage. '+(f.kind==='Simulation'?'A simulated environment, not a real-world robot demonstration.':'A qualitative demonstration, not a performance specification or independent validation.');video.poster='/company/assets/'+id+'.jpg';video.src='/company/assets/'+id+'.mp4';dialog.showModal();document.body.style.overflow='hidden';video.play().catch(()=>{});}));
