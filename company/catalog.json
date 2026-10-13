@@ -136,7 +136,8 @@
       "interest": "actuation",
       "views": [],
       "url": "/company/products/m01/",
-      "csv": "/company/docs/m01-specifications.csv"
+      "csv": "/company/docs/m01-specifications.csv",
+      "product_family": "Matter Poise components"
     },
     {
       "id": "m01-neo",
@@ -238,7 +239,8 @@
       "interest": "actuation",
       "views": [],
       "url": "/company/products/m01-neo/",
-      "csv": "/company/docs/m01-neo-specifications.csv"
+      "csv": "/company/docs/m01-neo-specifications.csv",
+      "product_family": "Matter Poise components"
     },
     {
       "id": "m02",
@@ -341,7 +343,8 @@
       "interest": "actuation",
       "views": [],
       "url": "/company/products/m02/",
-      "csv": "/company/docs/m02-specifications.csv"
+      "csv": "/company/docs/m02-specifications.csv",
+      "product_family": "Matter Poise components"
     },
     {
       "id": "wz53",
@@ -444,7 +447,8 @@
       "interest": "actuation",
       "views": [],
       "url": "/company/products/wz53/",
-      "csv": "/company/docs/wz53-specifications.csv"
+      "csv": "/company/docs/wz53-specifications.csv",
+      "product_family": "Matter Poise components"
     },
     {
       "id": "wz79",
@@ -547,7 +551,8 @@
       "interest": "actuation",
       "views": [],
       "url": "/company/products/wz79/",
-      "csv": "/company/docs/wz79-specifications.csv"
+      "csv": "/company/docs/wz79-specifications.csv",
+      "product_family": "Matter Poise components"
     },
     {
       "id": "wz119",
@@ -650,7 +655,8 @@
       "interest": "actuation",
       "views": [],
       "url": "/company/products/wz119/",
-      "csv": "/company/docs/wz119-specifications.csv"
+      "csv": "/company/docs/wz119-specifications.csv",
+      "product_family": "Matter Poise components"
     },
     {
       "id": "neo-hand",
@@ -744,7 +750,8 @@
         "neo-back.webp"
       ],
       "url": "/company/products/neo-hand/",
-      "csv": "/company/docs/neo-hand-specifications.csv"
+      "csv": "/company/docs/neo-hand-specifications.csv",
+      "product_family": "FlatHill"
     },
     {
       "id": "dex-hand-21",
@@ -832,7 +839,8 @@
       "interest": "hand",
       "views": [],
       "url": "/company/products/dex-hand-21/",
-      "csv": "/company/docs/dex-hand-21-specifications.csv"
+      "csv": "/company/docs/dex-hand-21-specifications.csv",
+      "product_family": "FlatHill"
     },
     {
       "id": "quadruped",
@@ -935,7 +943,8 @@
       "interest": "dog",
       "views": [],
       "url": "/company/products/quadruped/",
-      "csv": "/company/docs/quadruped-specifications.csv"
+      "csv": "/company/docs/quadruped-specifications.csv",
+      "product_family": "GROUNDWISE"
     },
     {
       "id": "spherical-r700",
@@ -1038,7 +1047,8 @@
       "interest": "orb",
       "views": [],
       "url": "/company/products/spherical-r700/",
-      "csv": "/company/docs/spherical-r700-specifications.csv"
+      "csv": "/company/docs/spherical-r700-specifications.csv",
+      "product_family": "WAYROUND"
     },
     {
       "id": "dual-arm",
@@ -1134,7 +1144,17 @@
       "interest": "arms",
       "views": [],
       "url": "/company/products/dual-arm/",
-      "csv": "/company/docs/dual-arm-specifications.csv"
+      "csv": "/company/docs/dual-arm-specifications.csv",
+      "product_family": "Matter Poise integration platform"
     }
-  ]
+  ],
+  "brand_hierarchy": {
+    "company": "Matter Poise",
+    "families": {
+      "GROUNDWISE": "Quadruped Robotic Systems",
+      "WAYROUND": "Spherical Robotic Systems",
+      "FlatHill": "Dexterous End-effectors & Manipulation Systems"
+    },
+    "note": "Family names describe product brands; source model names and technical values remain revision-specific."
+  }
 }

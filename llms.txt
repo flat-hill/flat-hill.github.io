@@ -1,25 +1,19 @@
-# MATTER POISE
-
-A U.S. AI-driven hardware R&D and manufacturing company.
+# Matter Poise
+Robotics & Intelligent Machines. Matter, poised to act.
 
 ## Company website
-- [Official website](https://flat-hill.github.io/): hardware, ROSE, manufacturing approach and company contact.
-- [Hardware](https://flat-hill.github.io/company/hardware/): joint modules and engineering platforms.
-- [ROSE](https://flat-hill.github.io/company/rose/): AI-assisted engineering system in development.
-- [Manufacturing](https://flat-hill.github.io/company/manufacturing/): engineering approach and planned U.S. production path.
+- [Company](https://flat-hill.github.io/company/about/): company purpose and team experience.
+- [Products](https://flat-hill.github.io/company/products/): GROUNDWISE quadruped systems, WAYROUND spherical systems, FlatHill dexterous manipulation end-effectors.
+- [ROSE](https://flat-hill.github.io/company/rose/): proprietary AI-assisted engineering system in development.
+- [Engineering & Integration](https://flat-hill.github.io/company/engineering/): engineering, buildability, testing, serviceability and repeatability.
 
-## Investor Q&A
-- [MATTER POISE Agent](https://flat-hill.github.io/matter-poise/agent/): published briefing, answer policy, evidence register and portable Skill.
-- [Plain-text briefing](https://flat-hill.github.io/matter-poise/agent/brief.txt): self-contained dated knowledge and balanced response guidance.
-- [Claims JSON](https://flat-hill.github.io/matter-poise/agent/claims.json): facts, management statements, assumptions and qualifications.
-- [Skill](https://flat-hill.github.io/matter-poise/agent/SKILL.md): compatible-agent instructions.
-- [Online investor presentation](https://flat-hill.github.io/matter-poise/): products, BOM scenarios, commercial model, roadmap and financing plan.
-- [Sources](https://flat-hill.github.io/matter-poise/sources.html): primary-source directory.
-- [Human handoff](https://flat-hill.github.io/matter-poise/#bookroadshow): email meeting request.
+## Public technical references
+- [Model catalog](https://flat-hill.github.io/company/models/): eleven model and platform snapshots.
+- [Documentation](https://flat-hill.github.io/company/docs/): handbook, CSVs, integration guide and source register.
+- [Structured product data](https://flat-hill.github.io/company/catalog.json): source values, design targets, pending values and conflicts remain distinct.
+Detailed CAD, SDK, firmware, test evidence and manufacturing packages require a project-specific team handoff; no authenticated portal is offered here.
 
-AI assistance does not constitute team confirmation, verified traction, legal advice or a live team connection.
-
-## Product documentation
-- [Product center](https://flat-hill.github.io/company/products/): 11 model snapshots, source-based specs and comparison.
-- [Documentation](https://flat-hill.github.io/company/docs/): handbook PDF, parameter CSVs, integration guide and source register.
-- [Structured product data](https://flat-hill.github.io/company/catalog.json): reported values, design targets, pending values and source conflicts kept distinct.
+## Separate investor materials
+- [Investor presentation](https://flat-hill.github.io/matter-poise/): independently maintained business presentation.
+- [Investor Agent](https://flat-hill.github.io/matter-poise/agent/): dated briefing and portable Skill, not a live team connection.
+Company experience, development targets and future plans must not be treated as verified company traction, final specifications or current production capacity.
