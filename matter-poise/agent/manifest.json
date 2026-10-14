@@ -1,6 +1,6 @@
 {
   "name": "MATTER POISE Investor DD workspace",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "published": "2026-10-14",
   "knowledge_as_of": "2026-10-12",
   "selected_company_updates": "2026-10-14",
@@ -8,6 +8,7 @@
   "capability": "Public interactive research workspace and portable briefing; curated answers, no hosted inference, private access or live messaging",
   "prompt_url": "https://flat-hill.github.io/matter-poise/agent/start.txt",
   "brief_url": "https://flat-hill.github.io/matter-poise/agent/brief.txt",
+  "brief_mirror_url": "https://raw.githubusercontent.com/flat-hill/flat-hill.github.io/main/matter-poise/agent/brief.txt",
   "upload_brief_url": "https://flat-hill.github.io/matter-poise/agent/investor-dd-brief.md",
   "claims_url": "https://flat-hill.github.io/matter-poise/agent/claims.json",
   "dd_index_url": "https://flat-hill.github.io/matter-poise/agent/dd-workspace.json",
@@ -15,12 +16,12 @@
   "skill_package_url": "https://flat-hill.github.io/matter-poise/agent/matter-poise-agent.zip",
   "human_handoff": "https://flat-hill.github.io/matter-poise/#bookroadshow",
   "files": {
-    "brief.txt": "b4a2f424ac4e37a73dc8b9c16c72aa0becf5aaa398490de080f0e905f81251d4",
-    "investor-dd-brief.md": "b4a2f424ac4e37a73dc8b9c16c72aa0becf5aaa398490de080f0e905f81251d4",
-    "claims.json": "fcb3122fbe427c2e05f8e0c8a8d373fc59964d5974cdd6c3da79bc55aaa5e07f",
-    "dd-workspace.json": "1eb496a07c9d1eb7d6fd50c228429ef737351395c65ccbead27bdc022b671333",
-    "start.txt": "374388b8e4a3c706ea3d6418c342a856aa8991ca4490dfd2b32028f2d0552984",
-    "SKILL.md": "dde272797010be7736305329bc008926ca446468be6f69c1e0c31ffd7b7b0eb7",
-    "matter-poise-agent.zip": "96bdf67f6301de761bd45e9e15a552f05d86bc309e96589d6c3b7bd3839d0893"
+    "brief.txt": "bb811f71482a463d5e384632348b11bc10be62ebb196bfb884eb8288d02916d3",
+    "investor-dd-brief.md": "bb811f71482a463d5e384632348b11bc10be62ebb196bfb884eb8288d02916d3",
+    "claims.json": "d4b38bcf45916feb3bebea69c97f36556d0480d360ab2fced49b28d9e5253447",
+    "dd-workspace.json": "df79bbf33de7fc5cf9de50e732e61e84eb202c05eaf9e8e39363bafdc01ef7b3",
+    "start.txt": "1c2891fbadf194c555eb329d3f528924db908f50b13d64e145cda80cd21bacd4",
+    "SKILL.md": "5a9146f3cf970ca227fb35d7d82bde6950df4f1b814d76c43ef3eb6427c3804b",
+    "matter-poise-agent.zip": "1c754fbec9e549c250193ac61c4c086090857a149ff94ca4af5ccd88a247d405"
   }
 }
