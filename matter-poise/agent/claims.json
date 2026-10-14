@@ -1,5 +1,5 @@
 {
-  "version": "2.0.1",
+  "version": "2.1.0",
   "published": "2026-10-14",
   "knowledge_as_of": "2026-10-12",
   "brand_as_of": "2026-10-14",
@@ -9,36 +9,39 @@
       "id": "identity",
       "title": "Company positioning",
       "status": "Company positioning",
-      "statement": "MATTER POISE is positioned as a U.S. AI-driven hardware R&D and manufacturing company based in Georgia, U.S. The company connects self-developed actuation, engineering services, production supply and planned software workflows. The team confirms info@matterpoise.com as its contact address.",
+      "statement": "MATTER POISE is a newly established U.S. AI-driven hardware R&D and manufacturing company based in Georgia, U.S., as confirmed by management. It connects self-developed actuation, engineering services, production supply and planned software workflows. The team confirms info@matterpoise.com as its contact address.",
       "sources": [
+        "management-2026-10-14",
         "corporate",
         "contact"
       ],
-      "qualification": "Location and contact are management-confirmed. Incorporation, ownership and the legal contracting entity still require company documents; public positioning alone does not establish them.",
+      "qualification": "The company stage, location and contact are management-confirmed. Investors can request formation records, ownership information and the legal contracting entity for documentary diligence.",
       "as_of": "2026-10-14"
     },
     {
       "id": "products",
       "title": "Hardware portfolio",
       "status": "Management-reported engineering",
-      "statement": "The portfolio includes micro drives, larger joint modules, FlatHill dexterous manipulation end-effectors, GROUNDWISE mobile systems, WAYROUND spherical systems and a separate Matter Poise dual-arm integration platform. Shared modules are intended to reduce redesign and simplify production transfer.",
+      "statement": "The portfolio includes micro drives, larger joint modules, FlatHill dexterous manipulation end-effectors, GROUNDWISE mobile systems, WAYROUND spherical systems and a separate Matter Poise dual-arm integration platform. Management describes the arm, spherical and quadruped platforms as applications of shared large-joint modules and a common hardware architecture. Reusing this engineering base is intended to limit duplicated development and support a broader set of customer applications.",
       "sources": [
+        "management-2026-10-14",
         "corporate",
         "catalog"
       ],
-      "qualification": "Readiness varies by SKU. Product renders, prototype demonstrations and engineering plans do not prove that every product is commercially shipping or qualified for volume production.",
+      "qualification": "Shared architecture does not mean identical platform BOMs or a measured reuse percentage. Each platform still needs its own integration, controls, testing and validation; readiness varies by SKU. The expected R&D efficiency has not been quantified in the public brief.",
       "as_of": "2026-10-14"
     },
     {
       "id": "modules",
       "title": "Self-developed joint architecture",
       "status": "Management-reported engineering",
-      "statement": "Micro families: M01 / M01 Neo / M02. Larger-joint families: WZ53 / WZ79 / WZ119. Management reports self-developed module designs and technical drawings.",
+      "statement": "Micro families: M01 / M01 Neo / M02. Larger-joint families: WZ53 / WZ79 / WZ119. Management reports established joint-module engineering capability supported by completed technical drawings. Modules are currently predominantly manufactured in China and imported into the U.S.; the company plans to establish U.S. joint-module production lines gradually.",
       "sources": [
+        "management-2026-10-14",
         "company"
       ],
-      "qualification": "Self-developed module architecture does not mean every motor, chip or input is fabricated internally. IP assignments, third-party licenses, performance and production maturity require diligence.",
-      "as_of": "2026-10-12"
+      "qualification": "The drawings and current manufacturing model are management-reported. Self-developed architecture does not mean every chip, motor or input is fabricated internally. Revision-specific performance, manufacturing readiness, rights and transfer milestones remain subjects for documentary review.",
+      "as_of": "2026-10-14"
     },
     {
       "id": "team",
@@ -66,13 +69,14 @@
     {
       "id": "buyers",
       "title": "Customers and first sale",
-      "status": "Commercial strategy",
-      "statement": "Initial targets are U.S. robotics OEMs, applied-AI / research teams and automation integrators. The path is paid evaluation hardware, scoped engineering and pilot lots, then scheduled component or assembly supply.",
+      "status": "Management-confirmed company stage and commercial strategy",
+      "statement": "MATTER POISE is newly established and currently has no orders, as confirmed by management on 14 October 2026. Initial target customers are U.S. robotics OEMs, applied-AI / research teams and automation integrators. The planned path is evaluation hardware, scoped engineering and pilot lots, followed by scheduled component or assembly supply.",
       "sources": [
+        "management-2026-10-14",
         "company"
       ],
-      "qualification": "Target segments are not signed customers. No current revenue, named customer commitments, purchase orders, backlog or conversion rates are verified in this public brief.",
-      "as_of": "2026-10-12"
+      "qualification": "Target segments and sales stages describe the commercial plan, not current booked business. No orders does not itself establish revenue status or whether evaluation conversations exist; those should be confirmed separately with the team.",
+      "as_of": "2026-10-14"
     },
     {
       "id": "economics",
@@ -159,14 +163,14 @@
     {
       "id": "ip",
       "title": "IP and freedom to operate",
-      "status": "Management statement plus open diligence",
-      "statement": "Management reports module designs and technical drawings. The proposed rights package includes chain of title, license review, U.S. filing strategy and product-specific freedom-to-operate analysis.",
+      "status": "Management-reported technical assets and planned IP placement",
+      "statement": "Management reports completed joint-module technical drawings and relevant joint-module patent/IP assets being prepared for placement in the U.S. company. Completing that placement before the pre-A financing round is the stated target. This planned consolidation is intended to support the U.S. company’s long-term engineering and manufacturing position.",
       "sources": [
-        "company",
+        "management-2026-10-14",
         "ip"
       ],
-      "qualification": "Completed FTO, clean title and patent registrations are not verified by this brief. Financing geography, a U.S. entity or filing a patent does not establish FTO or FCC eligibility.",
-      "as_of": "2026-10-12"
+      "qualification": "The pre-A milestone is a target, not a completed transfer or registration. This brief does not specify patent grant status, patent numbers, ownership-transfer mechanisms or completed product-specific FTO. Request the asset schedule, current ownership and filing status, executed documentation when available, and appropriate FTO analysis. Ownership and freedom to operate are separate questions.",
+      "as_of": "2026-10-14"
     },
     {
       "id": "rose",
@@ -183,13 +187,14 @@
     {
       "id": "factory",
       "title": "Manufacturing and RSI",
-      "status": "Gated roadmap",
-      "statement": "The intended path is manufacturing partners, dedicated U.S. assembly / calibration / test cells, then lights-out operation for stable tasks. Long-term recursive self-improvement (RSI) means evidence-based changes with engineering review, traceability and rollback.",
+      "status": "Current manufacturing model and staged roadmap",
+      "statement": "Current joint-module supply is predominantly based on manufacturing in China and import into the U.S. The company plans a gradual build-out of U.S. joint-module production lines, supported by engineering documentation and process transfer. Dedicated assembly, calibration and test processes are intended to precede greater automation of stable tasks. The long-term RSI direction is evidence-based process improvement with engineering review, traceability and rollback.",
       "sources": [
+        "management-2026-10-14",
         "company"
       ],
-      "qualification": "No completed lights-out factory, autonomous factory capability, guaranteed cost reduction or fixed completion date is established. Expansion depends on demand, yield, good-unit economics and reliable exception handling.",
-      "as_of": "2026-10-12"
+      "qualification": "Planned U.S. production lines and lights-out capabilities are future milestones, not present installed capacity. Timing and scale depend on demand, funding, process qualification, yield and good-unit economics; the public brief commits to no completed factory or guaranteed cost reduction.",
+      "as_of": "2026-10-14"
     },
     {
       "id": "raise",
@@ -320,6 +325,12 @@
       "title": "Company-supplied product demonstrations",
       "url": "https://flat-hill.github.io/company/products/",
       "note": "Edited highlights and full demonstrations; qualitative evidence only."
+    },
+    "management-2026-10-14": {
+      "id": "management-2026-10-14",
+      "title": "Management clarification — 14 October 2026",
+      "url": "https://flat-hill.github.io/matter-poise/agent/company-update-2026-10-14.md",
+      "note": "Management-confirmed company stage, current manufacturing model, planned IP placement and shared-platform architecture. Company statements, not an independent entity, patent-title or technical audit."
     }
   },
   "release_note": "Public DD test workspace. Source-specific dates remain authoritative; this release does not re-verify all underlying claims."

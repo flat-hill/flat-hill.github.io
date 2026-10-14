@@ -1,8 +1,8 @@
 {
-  "version": "2.0.1",
+  "version": "2.1.0",
   "published": "2026-10-14",
   "mode": "Public test workspace; curated responses, no hosted inference or private document access",
-  "starter_prompt": "Act as my independent, critical due-diligence research assistant for MATTER POISE: read https://flat-hill.github.io/matter-poise/agent/brief.txt (if unavailable, use https://raw.githubusercontent.com/flat-hill/flat-hill.github.io/main/matter-poise/agent/brief.txt), state its date and what you could retrieve, then interview me about my investment focus and investigate it with citations, separating evidence, management claims, assumptions and unknowns; challenge the thesis and build an evidence-request list. If neither link opens, ask me to upload the brief; never invent access to private documents.",
+  "starter_prompt": "Help me research MATTER POISE: read https://flat-hill.github.io/matter-poise/agent/brief.txt (if unavailable, use https://raw.githubusercontent.com/flat-hill/flat-hill.github.io/main/matter-poise/agent/brief.txt), state its version, date and what you retrieved, then ask my investment focus and answer with citations. Explain the evidence-backed opportunity, distinguish current facts, management statements, plans, assumptions and unknowns, answer material questions directly, and build a focused evidence-request list. If neither link opens, ask me to upload the brief; never invent private-document access.",
   "brief_mirror_url": "https://raw.githubusercontent.com/flat-hill/flat-hill.github.io/main/matter-poise/agent/brief.txt",
   "topics": [
     {
@@ -43,12 +43,25 @@
   ],
   "questions": [
     {
+      "id": "orders",
+      "topic": "commercial",
+      "question": "Does MATTER POISE have orders today?",
+      "answer": "MATTER POISE is newly established and currently has no orders, as confirmed by management on 14 October 2026. Its commercial focus is to turn the team’s joint-module engineering and manufacturing experience into customer evaluation programs and repeat supply.",
+      "qualification": "Current orders, revenue, evaluation discussions and future sales opportunities are distinct. The no-orders statement should not be broadened into claims about revenue or conversations that the team has not confirmed.",
+      "evidence_needed": "Track the next milestones through dated evaluations, agreed acceptance criteria, purchase orders and repeat-supply agreements as they develop.",
+      "claims": [
+        "identity",
+        "buyers",
+        "team"
+      ]
+    },
+    {
       "id": "wedge",
       "topic": "commercial",
-      "question": "Who pays first?",
-      "answer": "The proposed entry is paid evaluation hardware, scoped engineering and pilot lots for U.S. robotics OEMs, applied-AI or research teams, and automation integrators. Repeat component or assembly supply is the intended next step.",
-      "countercase": "Target segments and a coherent sales path do not establish design wins or repeat demand. Buying cycles, integration effort and incumbent qualification can slow adoption.",
-      "evidence_needed": "Ask for a dated pipeline by stage, evaluation agreements, paid invoices and evidence of conversion to scheduled supply.",
+      "question": "Who is the first customer focus?",
+      "answer": "The target customers are U.S. robotics OEMs, applied-AI or research teams, and automation integrators. The proposed entry is evaluation hardware, scoped engineering and pilot lots, with repeat component or assembly supply as the next step.",
+      "qualification": "These are target segments and a planned sales path. The newly established company currently has no orders; customer qualification and timing remain to be established program by program.",
+      "evidence_needed": "Request a dated pipeline by stage and the evaluation-to-supply milestones, with evidence clearly identified as discussions, agreements or orders.",
       "claims": [
         "buyers",
         "products"
@@ -58,9 +71,9 @@
       "id": "market",
       "topic": "commercial",
       "question": "How much of the market is actually addressable?",
-      "answer": "The brief cites A3 North American robot orders as industry context. Those figures cover complete robots across North America; they are not a U.S. component TAM or a MATTER POISE revenue opportunity.",
-      "countercase": "Adding sectors or overlapping reporting periods can materially overstate the opportunity. The addressable wedge depends on compatible programs, modules per program, adoption and achievable selling prices.",
-      "evidence_needed": "Request a bottom-up account map with segment definitions, integration requirements, realistic annual volumes and buying evidence. Refresh the dated A3 sources before relying on current market totals.",
+      "answer": "A3 North American robot orders provide industry context. MATTER POISE’s addressable opportunity should be built from compatible customer programs, modules per program, expected adoption and achievable selling prices.",
+      "qualification": "The cited A3 figures cover complete robots across North America. They are not a U.S. component TAM, and overlapping periods or sectors should not be added together.",
+      "evidence_needed": "Request a bottom-up account map with segment definitions, integration requirements, annual volumes and buying evidence. Refresh the dated A3 sources for current market totals.",
       "claims": [
         "market",
         "buyers",
@@ -68,11 +81,36 @@
       ]
     },
     {
+      "id": "production",
+      "topic": "product",
+      "question": "Where are the joint modules manufactured today?",
+      "answer": "The company’s modules are currently predominantly manufactured in China and imported into the U.S. Management plans to build U.S. joint-module production lines gradually, using the existing engineering base to support process transfer.",
+      "qualification": "The U.S. production lines are a future milestone. Manufacturing location, supplier identity and qualifying origin should be documented for each relevant SKU and lot.",
+      "evidence_needed": "Request the current manufacturing flow, supplier and quality records, and a phased U.S. production plan with capex, transfer and qualification milestones.",
+      "claims": [
+        "modules",
+        "factory",
+        "origin"
+      ]
+    },
+    {
+      "id": "portfolio",
+      "topic": "product",
+      "question": "Why pursue several robot platforms?",
+      "answer": "The arm, spherical and quadruped platforms are built around shared large-joint modules and a common hardware architecture. This gives the portfolio a reusable engineering base: different applications can draw on the same core actuation work, limiting duplicated R&D while broadening potential customer uses.",
+      "qualification": "Reuse does not eliminate platform-specific integration, control, safety and validation work. It is not a claim that every part is shared or that a quantified R&D saving has already been measured.",
+      "evidence_needed": "Request a platform-to-module map, common interfaces, revision compatibility and separate validation milestones to show how the shared architecture translates into execution.",
+      "claims": [
+        "products",
+        "modules"
+      ]
+    },
+    {
       "id": "ready",
       "topic": "product",
-      "question": "Does a demo prove production readiness?",
-      "answer": "No. Demonstrations show prototype behavior; readiness varies by SKU. The public materials do not establish volume-production qualification across the portfolio.",
-      "countercase": "A working prototype can still face tolerance, supply, calibration, yield, service and reliability problems at scale. Avoid inferring validated use cases from an edited clip.",
+      "question": "What does a product demo establish?",
+      "answer": "A demonstration shows prototype behavior and helps explain the intended application. Commercial readiness is assessed separately for each SKU through acceptance testing and repeatable production evidence.",
+      "qualification": "A clip does not establish qualification for volume production across the portfolio. Integration, tolerances, calibration, reliability and service should be evaluated for the relevant release.",
       "evidence_needed": "Request a SKU and revision matrix, acceptance criteria, production records, batch yield, field returns and traceable test results.",
       "claims": [
         "products",
@@ -84,11 +122,12 @@
       "id": "advantage",
       "topic": "product",
       "question": "Where could the manufacturing advantage come from?",
-      "answer": "The proposed advantage combines self-developed joint architectures with hardware, embedded control, supplier coordination and manufacturing-transfer experience. Reuse could reduce redesign and integration effort.",
-      "countercase": "The public brief does not establish lower landed good-unit cost or superiority over incumbent suppliers. Component pricing alone leaves assembly, yield and warranty unresolved.",
-      "evidence_needed": "Compare released specifications, supplier quotations, cycle time, first-pass yield, traceability, warranty rates and equivalent-volume competitor offers.",
+      "answer": "The prospective advantage combines self-developed joint architectures, completed technical drawings, shared hardware across platforms, and team experience in embedded control, suppliers and manufacturing transfer. Reuse and disciplined production transfer could support efficient development and scalable delivery.",
+      "qualification": "This is a capability-based investment case, not a measured claim of superiority over another supplier. Cost and performance comparisons should use equivalent specifications, volumes and service scope.",
+      "evidence_needed": "Review drawings and interfaces, dated supplier quotations, cycle time, first-pass yield, traceability and warranty assumptions. Compare alternatives respectfully on the same basis.",
       "claims": [
         "modules",
+        "products",
         "team",
         "costscope"
       ]
@@ -98,8 +137,8 @@
       "topic": "economics",
       "question": "Is $7.5M actual revenue?",
       "answer": "No. It is a hypothetical annual component-sales scenario: 5 programs × 500 robots × 12 modules × $250 = $7.5M and 30,000 modules. Every input is a modeling assumption.",
-      "countercase": "The scenario is not signed pipeline, a forecast or current traction. Scaling each input does not establish customer demand or a positive gross margin.",
-      "evidence_needed": "Request recognized-revenue records, customer purchase orders, program timing and cohort assumptions before underwriting growth.",
+      "qualification": "The scenario illustrates how repeat module supply could scale. It is not signed pipeline, a forecast or current revenue; MATTER POISE currently has no orders.",
+      "evidence_needed": "Request actual revenue records when relevant, customer purchase orders, program timing and cohort assumptions before using the scenario as an operating plan.",
       "claims": [
         "economics",
         "buyers"
@@ -110,7 +149,7 @@
       "topic": "economics",
       "question": "Are the BOM ranges equivalent to COGS?",
       "answer": "No. Published ranges are component budget scenarios. Joint inputs are about $150–500 for larger modules and about $100 for micro drives; the default system scenarios depend on stated quantities and compute choices.",
-      "countercase": "The model excludes end-product assembly, test labor, yield loss, freight, duties, software, warranty and operating expense. It cannot establish landed cost, pricing power or gross margin.",
+      "qualification": "A fully loaded model also needs end-product assembly, test labor, yield loss, freight, duties, software, warranty and operating expense. Component budgets alone do not establish gross margin.",
       "evidence_needed": "Request dated supplier quotations, actual build records and a bridge from BOM to landed good-unit cost, with selling price and warranty assumptions shown separately.",
       "claims": [
         "unitcost",
@@ -123,9 +162,9 @@
       "id": "origin",
       "topic": "ip",
       "question": "Does U.S. sourcing establish compliance?",
-      "answer": "No. U.S. supplier spending, component origin and finished-product eligibility are distinct. A U.S. invoice or NVIDIA brand does not itself establish qualifying origin or authorization.",
-      "countercase": "There is no permanent generic chip exemption or verified domestic-content percentage in the public model. Applicable rules, exemptions and product scope require current primary-source review.",
-      "evidence_needed": "Request a non-overlapping, origin-documented BOM, supplier declarations, manufacturing flow and SKU-specific regulatory assessment. Recheck the dated public legal references.",
+      "answer": "U.S. supplier spending, component origin and finished-product eligibility are separate questions. The appropriate approach is a traceable BOM and a product-specific review of applicable rules.",
+      "qualification": "A U.S. invoice or NVIDIA brand alone does not establish qualifying origin or authorization. There is no verified generic chip exemption or domestic-content percentage in this public model.",
+      "evidence_needed": "Request an origin-documented BOM, supplier declarations, manufacturing flow and SKU-specific regulatory assessment. Recheck the dated primary legal references.",
       "claims": [
         "origin",
         "fcc"
@@ -134,10 +173,10 @@
     {
       "id": "rights",
       "topic": "ip",
-      "question": "Is the IP position already proven?",
-      "answer": "Management reports self-developed module designs and technical drawings. That claim should be separated from documented ownership, licenses and product-specific freedom to operate.",
-      "countercase": "Incorporation in the U.S., financing geography or a patent filing does not establish FTO. Third-party software, electronics and mechanical rights may still matter.",
-      "evidence_needed": "Request the chain of title, contributor assignments, license inventory and product-specific counsel-reviewed IP analysis where available.",
+      "question": "What supports the joint-module technology and IP position?",
+      "answer": "Management reports completed joint-module technical drawings and relevant patent/IP assets being prepared for placement in the U.S. company. The target is to complete that placement before the pre-A financing round, consolidating the engineering foundation for future U.S. manufacturing.",
+      "qualification": "The target is not a statement that transfer, registration or FTO is complete. Patent grant status, numbers and transfer mechanisms are not specified in this public brief; ownership and freedom to operate need separate evidence.",
+      "evidence_needed": "Request a controlled drawing index, asset and filing-status schedule, current ownership and contributor records, placement milestones, executed documents when available and appropriate product-specific FTO analysis.",
       "claims": [
         "ip",
         "modules"
@@ -148,8 +187,8 @@
       "topic": "software",
       "question": "What does ROSE do today?",
       "answer": "ROSE is in development; management reports an early prototype. The proposed workflow connects concept-to-demo and demo-to-manufacturing, while the public page explains the intended system.",
-      "countercase": "The explainer is not evidence of a shipped product, paid usage or measured productivity gains. The post-2027 commercial stage is a roadmap, not a delivery commitment.",
-      "evidence_needed": "Request a dated live demonstration, versioned workflow outputs, human-review boundaries, measured baseline comparisons and initial user-validation records.",
+      "qualification": "The explainer illustrates direction rather than a shipped software product or measured productivity gain. The post-2027 commercial stage remains a roadmap milestone.",
+      "evidence_needed": "Request a dated demonstration, versioned workflow outputs, human-review boundaries, measured baseline comparisons and initial user-validation records.",
       "claims": [
         "rose"
       ]
@@ -157,12 +196,13 @@
     {
       "id": "factory",
       "topic": "software",
-      "question": "Is a lights-out factory part of the current asset base?",
-      "answer": "The intended path moves from manufacturing partners to dedicated U.S. assembly, calibration and test cells, then automates stable tasks. A completed lights-out factory is not established in the public brief.",
-      "countercase": "Unattended operation adds capital, maintenance and exception-handling risk. Automation should follow repeatable demand and good-unit economics rather than replace their validation.",
-      "evidence_needed": "Request capacity and site assumptions, process-level automation milestones, capex quotations, reliability criteria and demand-backed stage gates.",
+      "question": "How does the U.S. manufacturing roadmap develop?",
+      "answer": "Current joint-module supply is predominantly manufactured in China and imported. The next direction is a gradual build-out of U.S. joint-module production lines, followed by greater automation of stable, qualified processes. Existing technical documentation and manufacturing-transfer experience are intended to support that progression.",
+      "qualification": "Future U.S. lines and a lights-out factory are milestones, not current installed assets. Automation scope should follow demand, process repeatability and good-unit economics.",
+      "evidence_needed": "Request process-transfer milestones, site and capacity assumptions, capex quotations, qualification criteria and demand-linked expansion gates.",
       "claims": [
         "factory",
+        "modules",
         "costscope"
       ]
     },
@@ -170,29 +210,40 @@
       "id": "team",
       "topic": "team",
       "question": "What does the 150+ delivery experience mean?",
-      "answer": "The team materials report 150+ robot deliveries in prior career programs, alongside mechanism, embedded-control, supplier and field-delivery experience.",
-      "countercase": "Those prior programs are not MATTER POISE shipments, current orders or audited company traction. The specific responsibilities and relevance to the planned product mix need verification.",
-      "evidence_needed": "Request role-based, dated program references, scope of responsibility, manufacturing-transfer evidence and permission-cleared customer or partner references.",
+      "answer": "The team materials report 150+ robot deliveries in prior career programs, alongside mechanism, embedded-control, supplier and field-delivery experience. That experience is part of the execution foundation the newly established company aims to bring to its own products.",
+      "qualification": "Prior-career deliveries are distinct from MATTER POISE shipments or current orders. The company currently has no orders, and specific prior responsibilities can be reviewed through permitted references.",
+      "evidence_needed": "Request role-based, dated program references, scope of responsibility and manufacturing-transfer evidence that can be shared appropriately.",
       "claims": [
         "team",
-        "products"
+        "buyers"
       ]
     },
     {
       "id": "raise",
       "topic": "financing",
-      "question": "What must the financing prove?",
+      "question": "What milestones is the financing intended to support?",
       "answer": "Management confirms an approximately $8–10M seed fundraising planning range as of 14 October 2026. The $10M example allocates capital across equipment, team and operations, R&D and transfer, and working capital or contingency.",
-      "countercase": "This is a working financing plan, not money raised or confirmed terms. Cash runway, cap table, valuation and commitments are not verified by the public brief.",
-      "evidence_needed": "Request current financials, a monthly cash plan, cap table, round terms and milestones tied to paid design wins, qualification and repeatable delivery.",
+      "qualification": "This is a working financing plan, not money raised or confirmed terms. Runway, cap table, valuation and commitments require current team confirmation.",
+      "evidence_needed": "Request a monthly cash plan, cap table, proposed terms and milestones tied to evaluations, joint-module IP placement before pre-A, product qualification and repeatable delivery.",
       "claims": [
         "raise",
         "buyers",
+        "ip",
         "factory"
       ]
     }
   ],
   "public_documents": [
+    {
+      "id": "management-update",
+      "title": "Management clarification — 14 October 2026",
+      "kind": "MD",
+      "url": "https://flat-hill.github.io/matter-poise/agent/company-update-2026-10-14.md",
+      "note": "Current stage, manufacturing model, planned IP placement and shared-platform rationale; management-confirmed statements.",
+      "source_ids": [
+        "management-2026-10-14"
+      ]
+    },
     {
       "id": "brief",
       "title": "Investor DD briefing",
@@ -342,7 +393,7 @@
       "title": "IP chain of title and license inventory",
       "status": "Request from team",
       "priority": "Initial review",
-      "purpose": "Identify ownership, contributor assignments and third-party dependencies.",
+      "purpose": "Review current ownership and filing status, contributor assignments, third-party dependencies and the planned pre-A placement in the U.S. company.",
       "claims": [
         "ip",
         "modules"
@@ -389,7 +440,7 @@
       "title": "U.S. manufacturing plan and capex support",
       "status": "Request from team",
       "priority": "Technical review",
-      "purpose": "Connect demand, process milestones and capital deployment.",
+      "purpose": "Map the transition from current China-based module manufacturing and imports to future U.S. joint-module production lines.",
       "claims": [
         "factory",
         "raise"

@@ -1,6 +1,6 @@
 {
   "name": "MATTER POISE Investor DD workspace",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "published": "2026-10-14",
   "knowledge_as_of": "2026-10-12",
   "selected_company_updates": "2026-10-14",
@@ -16,12 +16,13 @@
   "skill_package_url": "https://flat-hill.github.io/matter-poise/agent/matter-poise-agent.zip",
   "human_handoff": "https://flat-hill.github.io/matter-poise/#bookroadshow",
   "files": {
-    "brief.txt": "bb811f71482a463d5e384632348b11bc10be62ebb196bfb884eb8288d02916d3",
-    "investor-dd-brief.md": "bb811f71482a463d5e384632348b11bc10be62ebb196bfb884eb8288d02916d3",
-    "claims.json": "d4b38bcf45916feb3bebea69c97f36556d0480d360ab2fced49b28d9e5253447",
-    "dd-workspace.json": "df79bbf33de7fc5cf9de50e732e61e84eb202c05eaf9e8e39363bafdc01ef7b3",
-    "start.txt": "1c2891fbadf194c555eb329d3f528924db908f50b13d64e145cda80cd21bacd4",
-    "SKILL.md": "5a9146f3cf970ca227fb35d7d82bde6950df4f1b814d76c43ef3eb6427c3804b",
-    "matter-poise-agent.zip": "1c754fbec9e549c250193ac61c4c086090857a149ff94ca4af5ccd88a247d405"
+    "company-update-2026-10-14.md": "d77bb8c604b048a421f419004c23411f8a5fd114098e3304d3514d141e037b89",
+    "brief.txt": "74e5496aabf06c0c774e1781047ec127e8d379fb01c8d7f7841f83d23fbecacd",
+    "investor-dd-brief.md": "74e5496aabf06c0c774e1781047ec127e8d379fb01c8d7f7841f83d23fbecacd",
+    "claims.json": "eb3113b283b07dcabb3753ad32271d0152db2e23673d1fab31558ddab47c63ae",
+    "dd-workspace.json": "61e43f794f775f27db0242991d0ce90e9bed54bf0782e4ace73a1eb65a039732",
+    "start.txt": "7ad1aea2f4947d70399f315e959f0e5800d5de03d4cbc77cc9eeb85260af2124",
+    "SKILL.md": "31c0a8c306985ddf5afd2dc43c91b82c77333b81c550566c55196ebabc671d6f",
+    "matter-poise-agent.zip": "61ad3ec5fef29afe9c4fa8caa7c51a904d96debdeee47bdff5b92702fdf09973"
   }
 }

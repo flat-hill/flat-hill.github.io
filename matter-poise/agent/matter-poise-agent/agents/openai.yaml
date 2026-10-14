@@ -1,4 +1,4 @@
 interface:
   display_name: "MATTER POISE Agent"
   short_description: "Sourced and balanced MATTER POISE investor Q&A"
-  default_prompt: "Use $matter-poise-agent to answer my investor questions with sources, assumptions and material risks."
+  default_prompt: "Use $matter-poise-agent to answer my investor questions with sources, current facts, planned milestones and relevant qualifications."
