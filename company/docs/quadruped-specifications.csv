@@ -8,6 +8,5 @@ Quadruped platform,Supply voltage,48 V,Reported,S3 · page 3,,MP-PRODUCTS-2026.1
 Quadruped platform,Maximum joint torque,130 N·m,Reported,S3 · page 3,Not a continuous joint rating.,MP-PRODUCTS-2026.10-r1
 Quadruped platform,Motion speed,0–3 m/s,Reported,S3 · page 3,,MP-PRODUCTS-2026.10-r1
 Quadruped platform,Maximum slope,45°,Reported,S3 · page 3,"Terrain, loading and test protocol require confirmation.",MP-PRODUCTS-2026.10-r1
-Quadruped platform,Protection claim,IP56,Reported,S3 · page 3,Test report and configuration confirmation required; not a certification assertion.,MP-PRODUCTS-2026.10-r1
 Quadruped platform,External ports,1× GbE / 2× USB 3.0 / 2× Type-C / 1× HDMI,Reported,S3 · page 3,,MP-PRODUCTS-2026.10-r1
 Quadruped platform,Compute expansion,Jetson Orin Nano / NX option,Reported,S3 · page 10,"Optional expansion, not a guaranteed installed module.",MP-PRODUCTS-2026.10-r1

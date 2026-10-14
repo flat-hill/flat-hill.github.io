@@ -914,13 +914,6 @@
           "note": "Terrain, loading and test protocol require confirmation."
         },
         {
-          "label": "Protection claim",
-          "value": "IP56",
-          "status": "Reported",
-          "source": "S3 · page 3",
-          "note": "Test report and configuration confirmation required; not a certification assertion."
-        },
-        {
           "label": "External ports",
           "value": "1× GbE / 2× USB 3.0 / 2× Type-C / 1× HDMI",
           "status": "Reported",
@@ -938,7 +931,8 @@
       "notes": [
         "Values are transcribed from the selected source version, not independently verified acceptance specifications. Confirm the exact hardware revision, operating conditions and availability with the team.",
         "The extra four degrees of freedom are configuration-dependent in the manual. The platform illustration does not freeze their implementation.",
-        "Runtime, payload, sensing and SDK delivery must be agreed for the selected configuration."
+        "Runtime, payload, sensing and SDK delivery must be agreed for the selected configuration.",
+        "Selected public parameters. Application-specific specifications are available from the team."
       ],
       "interest": "dog",
       "views": [],
@@ -976,25 +970,11 @@
           "note": ""
         },
         {
-          "label": "Battery energy",
-          "value": "2,400 Wh",
-          "status": "Target",
-          "source": "S4 · page 2",
-          "note": ""
-        },
-        {
           "label": "Supply voltage",
           "value": "48 V",
           "status": "Target",
           "source": "S4 · page 2",
           "note": ""
-        },
-        {
-          "label": "Working duration",
-          "value": "≥6 h",
-          "status": "Target",
-          "source": "S4 · page 2",
-          "note": "Patrol, monitoring or low-speed cruise conditions."
         },
         {
           "label": "Maximum speed",
@@ -1018,13 +998,6 @@
           "note": "Hard-surface target; wet terrain requires derating."
         },
         {
-          "label": "Ingress protection",
-          "value": "IP68",
-          "status": "Target",
-          "source": "S4 · pages 2, 4",
-          "note": "No configuration-specific certification is established by the brief."
-        },
-        {
           "label": "Obstacle height",
           "value": "Unresolved: 100 / 200 mm",
           "status": "Conflict",
@@ -1042,7 +1015,8 @@
       "notes": [
         "Values are transcribed from the selected source version, not independently verified acceptance specifications. Confirm the exact hardware revision, operating conditions and availability with the team.",
         "The brief mixes target and descriptive language. Performance and environmental figures are treated as design targets until test evidence is available.",
-        "Obstacle-height values conflict within the source. An agreed acceptance test and corrected specification are required."
+        "Obstacle-height values conflict within the source. An agreed acceptance test and corrected specification are required.",
+        "Selected public parameters. Application-specific specifications are available from the team."
       ],
       "interest": "orb",
       "views": [],
@@ -1156,5 +1130,7 @@
       "FlatHill": "Dexterous End-effectors & Manipulation Systems"
     },
     "note": "Family names describe product brands; source model names and technical values remain revision-specific."
-  }
+  },
+  "public_edition": "2026-10-14",
+  "public_scope": "Selected public parameters. Application-specific specifications are available from the team."
 }

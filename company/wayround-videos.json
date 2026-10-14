@@ -1,0 +1,28 @@
+{
+  "basis": "Prototype demonstration. Final configuration and performance details are available from the team.",
+  "language": "en",
+  "videos": [
+    {
+      "id": "wayround-inspection-en",
+      "title": "WAYROUND \u00b7 inspection demonstration \u00b7 English edition",
+      "kind": "Prototype demonstration",
+      "caption": "Prototype demonstration. Final configuration and performance details are available from the team.",
+      "video": "/company/assets/wayround-inspection-en.mp4",
+      "poster": "/company/assets/wayround-inspection-en.jpg",
+      "duration": 165.96,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "id": "wayround-inspection-highlights-en",
+      "title": "WAYROUND \u00b7 inspection highlights \u00b7 English edition",
+      "kind": "Edited prototype highlights",
+      "caption": "Prototype demonstration. Final configuration and performance details are available from the team.",
+      "video": "/company/assets/wayround-inspection-highlights-en.mp4",
+      "poster": "/company/assets/wayround-inspection-highlights-en.jpg",
+      "duration": 29.966667,
+      "width": 1280,
+      "height": 720
+    }
+  ]
+}
