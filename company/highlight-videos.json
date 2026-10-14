@@ -1,41 +1,77 @@
 {
-  "basis": "Selected excerpts at original speed; full prototype demonstrations remain accessible.",
+  "basis": "Selected excerpts at original speed. GROUNDWISE highlight backgrounds are restyled with original floor and robot motion retained; people anonymized. Full GROUNDWISE demos retain the original setting with people anonymized.",
   "videos": [
     {
       "id": "groundwise-highlights-1",
-      "title": "Indoor mobility \u00b7 highlights",
-      "duration": 18.0,
-      "video": "/company/assets/groundwise-highlights-1.mp4",
-      "poster": "/company/assets/groundwise-highlights-1.jpg",
-      "original_id": "groundwise-demo-1"
+      "title": "Indoor mobility · highlights",
+      "duration": 15,
+      "video": "/company/assets/groundwise-highlights-1.mp4?v=doglab20261014",
+      "poster": "/company/assets/groundwise-highlights-1.jpg?v=doglab20261014",
+      "original_id": "groundwise-demo-1",
+      "version": "doglab20261014",
+      "playback_speed": 1,
+      "background": "Restyled white laboratory backdrop",
+      "floor": "Original footage retained",
+      "people": "Anonymized",
+      "caption": "Original-speed prototype footage. Background restyled; original floor and robot motion retained; people anonymized.",
+      "edl": [
+        {
+          "source": "groundwise-demo-1",
+          "start": 46,
+          "duration": 9.5
+        },
+        {
+          "source": "groundwise-demo-1",
+          "start": 75,
+          "duration": 5.5
+        }
+      ]
     },
     {
       "id": "groundwise-highlights-2",
-      "title": "Wheel-legged motion \u00b7 highlights",
-      "duration": 40.0,
-      "video": "/company/assets/groundwise-highlights-2.mp4",
-      "poster": "/company/assets/groundwise-highlights-2.jpg",
-      "original_id": "groundwise-demo-2"
+      "title": "Wheel-legged motion · highlights",
+      "duration": 40,
+      "video": "/company/assets/groundwise-highlights-2.mp4?v=doglab20261014",
+      "poster": "/company/assets/groundwise-highlights-2.jpg?v=doglab20261014",
+      "original_id": "groundwise-demo-2",
+      "version": "doglab20261014",
+      "playback_speed": 1,
+      "background": "Restyled white laboratory backdrop",
+      "floor": "Original footage retained",
+      "people": "Anonymized",
+      "caption": "Original-speed prototype footage. Background restyled; original floor and robot motion retained; people anonymized."
     },
     {
       "id": "groundwise-highlights-3",
-      "title": "Mobility and balance \u00b7 highlights",
-      "duration": 23.0,
-      "video": "/company/assets/groundwise-highlights-3.mp4",
-      "poster": "/company/assets/groundwise-highlights-3.jpg",
-      "original_id": "groundwise-demo-3"
+      "title": "Mobility and balance · highlights",
+      "duration": 23,
+      "video": "/company/assets/groundwise-highlights-3.mp4?v=doglab20261014",
+      "poster": "/company/assets/groundwise-highlights-3.jpg?v=doglab20261014",
+      "original_id": "groundwise-demo-3",
+      "version": "doglab20261014",
+      "playback_speed": 1,
+      "background": "Restyled white laboratory backdrop",
+      "floor": "Original footage retained",
+      "people": "Anonymized",
+      "caption": "Original-speed prototype footage. Background restyled; original floor and robot motion retained; people anonymized."
     },
     {
       "id": "groundwise-highlights-4",
-      "title": "Ride-on prototype \u00b7 highlights",
-      "duration": 11.0,
-      "video": "/company/assets/groundwise-highlights-4.mp4",
-      "poster": "/company/assets/groundwise-highlights-4.jpg",
-      "original_id": "groundwise-demo-4"
+      "title": "Ride-on prototype · highlights",
+      "duration": 11,
+      "video": "/company/assets/groundwise-highlights-4.mp4?v=doglab20261014",
+      "poster": "/company/assets/groundwise-highlights-4.jpg?v=doglab20261014",
+      "original_id": "groundwise-demo-4",
+      "version": "doglab20261014",
+      "playback_speed": 1,
+      "background": "Restyled white laboratory backdrop",
+      "floor": "Original footage retained",
+      "people": "Anonymized",
+      "caption": "Original-speed prototype footage. Background restyled; original floor and robot motion retained; people anonymized."
     },
     {
       "id": "flathill-highlights",
-      "title": "Finger articulation \u00b7 highlights",
+      "title": "Finger articulation · highlights",
       "duration": 14.0,
       "video": "/company/assets/flathill-highlights.mp4",
       "poster": "/company/assets/flathill-highlights.jpg",
@@ -43,11 +79,82 @@
     },
     {
       "id": "groundwise-motion-reel",
-      "title": "GROUNDWISE \u00b7 motion highlights",
-      "duration": 30.0,
-      "video": "/company/assets/groundwise-motion-reel.mp4",
-      "poster": "/company/assets/groundwise-motion-reel.jpg",
-      "original_id": "multiple"
+      "title": "GROUNDWISE · motion highlights",
+      "duration": 37.5,
+      "video": "/company/assets/groundwise-motion-reel.mp4?v=doglab20261014",
+      "poster": "/company/assets/groundwise-motion-reel.jpg?v=doglab20261014",
+      "original_id": "multiple",
+      "version": "doglab20261014",
+      "playback_speed": 1,
+      "background": "Restyled white laboratory backdrop",
+      "floor": "Original footage retained",
+      "people": "Anonymized",
+      "caption": "Original-speed prototype footage. Background restyled; original floor and robot motion retained; people anonymized. Includes assisted tipping.",
+      "edl": [
+        {
+          "source": "groundwise-demo-2",
+          "start": 23,
+          "duration": 6
+        },
+        {
+          "source": "groundwise-demo-1",
+          "start": 27.5,
+          "duration": 9.5
+        },
+        {
+          "source": "groundwise-demo-3",
+          "start": 10,
+          "duration": 6
+        },
+        {
+          "source": "groundwise-demo-2",
+          "start": 82,
+          "duration": 10
+        },
+        {
+          "source": "groundwise-demo-2",
+          "start": 243,
+          "duration": 6
+        }
+      ],
+      "includes_assisted_tipping": true
+    },
+    {
+      "id": "groundwise-recovery-reel",
+      "title": "Roll, recover, repeat",
+      "duration": 44,
+      "video": "/company/assets/groundwise-recovery-reel.mp4?v=doglab20261014",
+      "poster": "/company/assets/groundwise-recovery-reel.jpg?v=doglab20261014",
+      "original_id": "multiple",
+      "version": "doglab20261014",
+      "playback_speed": 1,
+      "background": "Restyled white laboratory backdrop",
+      "floor": "Original footage retained",
+      "people": "Anonymized",
+      "caption": "Original-speed prototype footage. Background restyled; original floor and robot motion retained; people anonymized. Includes assisted tipping.",
+      "edl": [
+        {
+          "source": "groundwise-demo-1",
+          "start": 7.5,
+          "duration": 12
+        },
+        {
+          "source": "groundwise-demo-1",
+          "start": 27.5,
+          "duration": 9.5
+        },
+        {
+          "source": "groundwise-demo-2",
+          "start": 48,
+          "duration": 12.5
+        },
+        {
+          "source": "groundwise-demo-2",
+          "start": 82,
+          "duration": 10
+        }
+      ],
+      "includes_assisted_tipping": true
     }
   ]
 }
