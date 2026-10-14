@@ -18,7 +18,7 @@ Detailed CAD, SDK, firmware, test evidence and manufacturing packages require a 
 - [Agent Based Pitch Flow](https://flat-hill.github.io/company/investment-relations/): how investors can begin evidence-based research using their own AI assistant, then follow up with the team.
 - [Investor presentation](https://flat-hill.github.io/matter-poise/): independently maintained business presentation.
 - [Investor DD workspace](https://flat-hill.github.io/matter-poise/agent/#workspace): source-linked editorial Q&A, topic selection and an exportable evidence-request list.
-- [Public investor briefing](https://flat-hill.github.io/matter-poise/agent/brief.txt): versioned evidence register and evidence-led research guidance for the investor's own AI assistant.
+- [Public investor briefing](https://flat-hill.github.io/matter-poise/agent/brief-v2.1.1.txt): versioned evidence register and evidence-led research guidance for the investor's own AI assistant.
 - [Uploadable briefing](https://flat-hill.github.io/matter-poise/agent/investor-dd-brief.md): self-contained fallback when the AI assistant cannot read links.
 - [Public Data Room index](https://flat-hill.github.io/matter-poise/agent/#dataroom): public documents and generic team-request categories; no private files or authenticated access.
 - [Portable Skill](https://flat-hill.github.io/matter-poise/agent/SKILL.md): optional instructions for hosts that support Skills; not a universal installation or live team connection.

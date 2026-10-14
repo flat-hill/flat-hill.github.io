@@ -7,8 +7,8 @@
   "canonical_url": "https://flat-hill.github.io/matter-poise/agent/",
   "capability": "Public interactive research workspace and portable briefing; curated answers, no hosted inference, private access or live messaging",
   "prompt_url": "https://flat-hill.github.io/matter-poise/agent/start.txt?v=2.1.1",
-  "brief_url": "https://flat-hill.github.io/matter-poise/agent/brief.txt?v=2.1.1",
-  "brief_mirror_url": "https://raw.githubusercontent.com/flat-hill/flat-hill.github.io/main/matter-poise/agent/brief.txt?v=2.1.1",
+  "brief_url": "https://flat-hill.github.io/matter-poise/agent/brief-v2.1.1.txt",
+  "brief_mirror_url": "https://raw.githubusercontent.com/flat-hill/flat-hill.github.io/main/matter-poise/agent/brief-v2.1.1.txt",
   "upload_brief_url": "https://flat-hill.github.io/matter-poise/agent/investor-dd-brief.md?v=2.1.1",
   "claims_url": "https://flat-hill.github.io/matter-poise/agent/claims.json?v=2.1.1",
   "dd_index_url": "https://flat-hill.github.io/matter-poise/agent/dd-workspace.json?v=2.1.1",
@@ -16,13 +16,14 @@
   "skill_package_url": "https://flat-hill.github.io/matter-poise/agent/matter-poise-agent.zip?v=2.1.1",
   "human_handoff": "https://flat-hill.github.io/matter-poise/#bookroadshow",
   "files": {
+    "brief-v2.1.1.txt": "3515595d9cae19ae004b9bf5c62a3c5a5230b947ec4b17224978226c4884be61",
     "company-update-2026-10-14.md": "d77bb8c604b048a421f419004c23411f8a5fd114098e3304d3514d141e037b89",
-    "brief.txt": "2156f9bd1b271c535d9803b045e0e17e97142bbaeba87875b99bdc25173787e4",
-    "investor-dd-brief.md": "2156f9bd1b271c535d9803b045e0e17e97142bbaeba87875b99bdc25173787e4",
+    "brief.txt": "3515595d9cae19ae004b9bf5c62a3c5a5230b947ec4b17224978226c4884be61",
+    "investor-dd-brief.md": "3515595d9cae19ae004b9bf5c62a3c5a5230b947ec4b17224978226c4884be61",
     "claims.json": "d2adc9236c7670fe9d881102b667acdaf5a2d6d75ed2b10bb83bf740f6c84afa",
-    "dd-workspace.json": "14f5edcbcdc6c84b7eb9f657c89199bb28255dceb66edd58693795966ab1ac6a",
-    "start.txt": "b8dfc820af10519926ceb16d0d78ecfc6dddec776f544ea9e7d85e28c3c3dea5",
-    "SKILL.md": "548c04b1f86f2a37b47271d384812f1e5178abe8161aaaa0c82ad485e388be67",
-    "matter-poise-agent.zip": "a940aa0197d938f566d6f20f61beeb61a9a289a2e8da3d92a82382c7034b5fb4"
+    "dd-workspace.json": "b82fac56d0afb8a82f00188f56f3047e5ddbd5d7d7aec5133ca87ee9613f54f3",
+    "start.txt": "d3205feeea68d93d8b97a77d88b114dd244e68bec2289911590ada31c75d814e",
+    "SKILL.md": "df8f51606301fcc33596b092013f1269613b5fbb74e32d540fb1d643f9afaead",
+    "matter-poise-agent.zip": "c6daa10818c70ac392db900c97deb2386d106d1531be07b702093278826b16dd"
   }
 }
