@@ -1,19 +1,26 @@
 {
-  "name": "MATTER POISE Agent",
-  "version": "1.0.0",
-  "published": "2026-10-13",
+  "name": "MATTER POISE Investor DD workspace",
+  "version": "2.0.0",
+  "published": "2026-10-14",
   "knowledge_as_of": "2026-10-12",
+  "selected_company_updates": "2026-10-14",
   "canonical_url": "https://flat-hill.github.io/matter-poise/agent/",
-  "capability": "Public, portable investor Q&A briefing; no hosted inference or live company messaging endpoint",
+  "capability": "Public interactive research workspace and portable briefing; curated answers, no hosted inference, private access or live messaging",
   "prompt_url": "https://flat-hill.github.io/matter-poise/agent/start.txt",
   "brief_url": "https://flat-hill.github.io/matter-poise/agent/brief.txt",
+  "upload_brief_url": "https://flat-hill.github.io/matter-poise/agent/investor-dd-brief.md",
   "claims_url": "https://flat-hill.github.io/matter-poise/agent/claims.json",
+  "dd_index_url": "https://flat-hill.github.io/matter-poise/agent/dd-workspace.json",
   "skill_url": "https://flat-hill.github.io/matter-poise/agent/SKILL.md",
   "skill_package_url": "https://flat-hill.github.io/matter-poise/agent/matter-poise-agent.zip",
   "human_handoff": "https://flat-hill.github.io/matter-poise/#bookroadshow",
   "files": {
-    "brief.txt": "7afa76cc2af64624268fa98d8a0e795160bd3e50c5e44fb904e2b16e2f02bb0e",
-    "claims.json": "7bb6fce2a5a052d6db54e3e81515d14274f25bd56a6400aa3ccd1245420d61cc",
-    "matter-poise-agent.zip": "d4b826ceade2e314af0dccc3bc879ac93554fb48d4795bd3ef9796651cad2e57"
+    "brief.txt": "b4a2f424ac4e37a73dc8b9c16c72aa0becf5aaa398490de080f0e905f81251d4",
+    "investor-dd-brief.md": "b4a2f424ac4e37a73dc8b9c16c72aa0becf5aaa398490de080f0e905f81251d4",
+    "claims.json": "fcb3122fbe427c2e05f8e0c8a8d373fc59964d5974cdd6c3da79bc55aaa5e07f",
+    "dd-workspace.json": "1eb496a07c9d1eb7d6fd50c228429ef737351395c65ccbead27bdc022b671333",
+    "start.txt": "374388b8e4a3c706ea3d6418c342a856aa8991ca4490dfd2b32028f2d0552984",
+    "SKILL.md": "dde272797010be7736305329bc008926ca446468be6f69c1e0c31ffd7b7b0eb7",
+    "matter-poise-agent.zip": "96bdf67f6301de761bd45e9e15a552f05d86bc309e96589d6c3b7bd3839d0893"
   }
 }

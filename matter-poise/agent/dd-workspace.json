@@ -1,0 +1,411 @@
+{
+  "version": "2.0.0",
+  "published": "2026-10-14",
+  "mode": "Public test workspace; curated responses, no hosted inference or private document access",
+  "starter_prompt": "Act as my independent, critical due-diligence research assistant for MATTER POISE: read https://flat-hill.github.io/matter-poise/agent/brief.txt, state its date and what you could retrieve, then interview me about my investment focus and investigate it with citations, separating evidence, management claims, assumptions and unknowns; challenge the thesis and build an evidence-request list. If you cannot open the brief, ask me to upload it; never invent access to private documents.",
+  "topics": [
+    {
+      "id": "commercial",
+      "label": "Market & customers",
+      "question": "Who buys first, and what proves willingness to pay?"
+    },
+    {
+      "id": "product",
+      "label": "Product & manufacturing",
+      "question": "What is repeatable beyond a prototype?"
+    },
+    {
+      "id": "economics",
+      "label": "Economics & scale",
+      "question": "What survives a fully loaded cost model?"
+    },
+    {
+      "id": "ip",
+      "label": "IP & compliance",
+      "question": "What rights and product-specific evidence are available?"
+    },
+    {
+      "id": "software",
+      "label": "ROSE & roadmap",
+      "question": "What exists today, and what remains a milestone?"
+    },
+    {
+      "id": "team",
+      "label": "Team & execution",
+      "question": "Which experience transfers into this company?"
+    },
+    {
+      "id": "financing",
+      "label": "Financing & governance",
+      "question": "What capital is needed to reach the next proof point?"
+    }
+  ],
+  "questions": [
+    {
+      "id": "wedge",
+      "topic": "commercial",
+      "question": "Who pays first?",
+      "answer": "The proposed entry is paid evaluation hardware, scoped engineering and pilot lots for U.S. robotics OEMs, applied-AI or research teams, and automation integrators. Repeat component or assembly supply is the intended next step.",
+      "countercase": "Target segments and a coherent sales path do not establish design wins or repeat demand. Buying cycles, integration effort and incumbent qualification can slow adoption.",
+      "evidence_needed": "Ask for a dated pipeline by stage, evaluation agreements, paid invoices and evidence of conversion to scheduled supply.",
+      "claims": [
+        "buyers",
+        "products"
+      ]
+    },
+    {
+      "id": "market",
+      "topic": "commercial",
+      "question": "How much of the market is actually addressable?",
+      "answer": "The brief cites A3 North American robot orders as industry context. Those figures cover complete robots across North America; they are not a U.S. component TAM or a MATTER POISE revenue opportunity.",
+      "countercase": "Adding sectors or overlapping reporting periods can materially overstate the opportunity. The addressable wedge depends on compatible programs, modules per program, adoption and achievable selling prices.",
+      "evidence_needed": "Request a bottom-up account map with segment definitions, integration requirements, realistic annual volumes and buying evidence. Refresh the dated A3 sources before relying on current market totals.",
+      "claims": [
+        "market",
+        "buyers",
+        "economics"
+      ]
+    },
+    {
+      "id": "ready",
+      "topic": "product",
+      "question": "Does a demo prove production readiness?",
+      "answer": "No. Demonstrations show prototype behavior; readiness varies by SKU. The public materials do not establish volume-production qualification across the portfolio.",
+      "countercase": "A working prototype can still face tolerance, supply, calibration, yield, service and reliability problems at scale. Avoid inferring validated use cases from an edited clip.",
+      "evidence_needed": "Request a SKU and revision matrix, acceptance criteria, production records, batch yield, field returns and traceable test results.",
+      "claims": [
+        "products",
+        "media",
+        "factory"
+      ]
+    },
+    {
+      "id": "advantage",
+      "topic": "product",
+      "question": "Where could the manufacturing advantage come from?",
+      "answer": "The proposed advantage combines self-developed joint architectures with hardware, embedded control, supplier coordination and manufacturing-transfer experience. Reuse could reduce redesign and integration effort.",
+      "countercase": "The public brief does not establish lower landed good-unit cost or superiority over incumbent suppliers. Component pricing alone leaves assembly, yield and warranty unresolved.",
+      "evidence_needed": "Compare released specifications, supplier quotations, cycle time, first-pass yield, traceability, warranty rates and equivalent-volume competitor offers.",
+      "claims": [
+        "modules",
+        "team",
+        "costscope"
+      ]
+    },
+    {
+      "id": "revenue",
+      "topic": "economics",
+      "question": "Is $7.5M actual revenue?",
+      "answer": "No. It is a hypothetical annual component-sales scenario: 5 programs × 500 robots × 12 modules × $250 = $7.5M and 30,000 modules. Every input is a modeling assumption.",
+      "countercase": "The scenario is not signed pipeline, a forecast or current traction. Scaling each input does not establish customer demand or a positive gross margin.",
+      "evidence_needed": "Request recognized-revenue records, customer purchase orders, program timing and cohort assumptions before underwriting growth.",
+      "claims": [
+        "economics",
+        "buyers"
+      ]
+    },
+    {
+      "id": "cost",
+      "topic": "economics",
+      "question": "Are the BOM ranges equivalent to COGS?",
+      "answer": "No. Published ranges are component budget scenarios. Joint inputs are about $150–500 for larger modules and about $100 for micro drives; the default system scenarios depend on stated quantities and compute choices.",
+      "countercase": "The model excludes end-product assembly, test labor, yield loss, freight, duties, software, warranty and operating expense. It cannot establish landed cost, pricing power or gross margin.",
+      "evidence_needed": "Request dated supplier quotations, actual build records and a bridge from BOM to landed good-unit cost, with selling price and warranty assumptions shown separately.",
+      "claims": [
+        "unitcost",
+        "platformcost",
+        "costscope",
+        "compute"
+      ]
+    },
+    {
+      "id": "origin",
+      "topic": "ip",
+      "question": "Does U.S. sourcing establish compliance?",
+      "answer": "No. U.S. supplier spending, component origin and finished-product eligibility are distinct. A U.S. invoice or NVIDIA brand does not itself establish qualifying origin or authorization.",
+      "countercase": "There is no permanent generic chip exemption or verified domestic-content percentage in the public model. Applicable rules, exemptions and product scope require current primary-source review.",
+      "evidence_needed": "Request a non-overlapping, origin-documented BOM, supplier declarations, manufacturing flow and SKU-specific regulatory assessment. Recheck the dated public legal references.",
+      "claims": [
+        "origin",
+        "fcc"
+      ]
+    },
+    {
+      "id": "rights",
+      "topic": "ip",
+      "question": "Is the IP position already proven?",
+      "answer": "Management reports self-developed module designs and technical drawings. That claim should be separated from documented ownership, licenses and product-specific freedom to operate.",
+      "countercase": "Incorporation in the U.S., financing geography or a patent filing does not establish FTO. Third-party software, electronics and mechanical rights may still matter.",
+      "evidence_needed": "Request the chain of title, contributor assignments, license inventory and product-specific counsel-reviewed IP analysis where available.",
+      "claims": [
+        "ip",
+        "modules"
+      ]
+    },
+    {
+      "id": "rose",
+      "topic": "software",
+      "question": "What does ROSE do today?",
+      "answer": "ROSE is in development; management reports an early prototype. The proposed workflow connects concept-to-demo and demo-to-manufacturing, while the public page explains the intended system.",
+      "countercase": "The explainer is not evidence of a shipped product, paid usage or measured productivity gains. The post-2027 commercial stage is a roadmap, not a delivery commitment.",
+      "evidence_needed": "Request a dated live demonstration, versioned workflow outputs, human-review boundaries, measured baseline comparisons and initial user-validation records.",
+      "claims": [
+        "rose"
+      ]
+    },
+    {
+      "id": "factory",
+      "topic": "software",
+      "question": "Is a lights-out factory part of the current asset base?",
+      "answer": "The intended path moves from manufacturing partners to dedicated U.S. assembly, calibration and test cells, then automates stable tasks. A completed lights-out factory is not established in the public brief.",
+      "countercase": "Unattended operation adds capital, maintenance and exception-handling risk. Automation should follow repeatable demand and good-unit economics rather than replace their validation.",
+      "evidence_needed": "Request capacity and site assumptions, process-level automation milestones, capex quotations, reliability criteria and demand-backed stage gates.",
+      "claims": [
+        "factory",
+        "costscope"
+      ]
+    },
+    {
+      "id": "team",
+      "topic": "team",
+      "question": "What does the 150+ delivery experience mean?",
+      "answer": "The team materials report 150+ robot deliveries in prior career programs, alongside mechanism, embedded-control, supplier and field-delivery experience.",
+      "countercase": "Those prior programs are not MATTER POISE shipments, current orders or audited company traction. The specific responsibilities and relevance to the planned product mix need verification.",
+      "evidence_needed": "Request role-based, dated program references, scope of responsibility, manufacturing-transfer evidence and permission-cleared customer or partner references.",
+      "claims": [
+        "team",
+        "products"
+      ]
+    },
+    {
+      "id": "raise",
+      "topic": "financing",
+      "question": "What must the financing prove?",
+      "answer": "Management confirms an approximately $8–10M seed fundraising planning range as of 14 October 2026. The $10M example allocates capital across equipment, team and operations, R&D and transfer, and working capital or contingency.",
+      "countercase": "This is a working financing plan, not money raised or confirmed terms. Cash runway, cap table, valuation and commitments are not verified by the public brief.",
+      "evidence_needed": "Request current financials, a monthly cash plan, cap table, round terms and milestones tied to paid design wins, qualification and repeatable delivery.",
+      "claims": [
+        "raise",
+        "buyers",
+        "factory"
+      ]
+    }
+  ],
+  "public_documents": [
+    {
+      "id": "brief",
+      "title": "Investor DD briefing",
+      "kind": "TXT",
+      "url": "https://flat-hill.github.io/matter-poise/agent/brief.txt",
+      "note": "Self-contained public facts, qualifications, source links and request checklist.",
+      "source_ids": [
+        "company",
+        "corporate"
+      ]
+    },
+    {
+      "id": "deck",
+      "title": "Investor presentation",
+      "kind": "PDF",
+      "url": "https://flat-hill.github.io/downloads/matter-poise-investor-2026.pdf",
+      "note": "Published investor narrative; statements and scenarios need their stated qualifications.",
+      "source_ids": [
+        "company"
+      ]
+    },
+    {
+      "id": "handbook",
+      "title": "Public product handbook",
+      "kind": "PDF",
+      "url": "https://flat-hill.github.io/company/docs/matter-poise-product-handbook.pdf",
+      "note": "Curated public technical information; detailed validation is requested separately.",
+      "source_ids": [
+        "catalog"
+      ]
+    },
+    {
+      "id": "catalog",
+      "title": "Public model catalog",
+      "kind": "JSON",
+      "url": "https://flat-hill.github.io/company/docs/product-catalog.json",
+      "note": "Public model entries with reported / target / pending labels.",
+      "source_ids": [
+        "catalog"
+      ]
+    },
+    {
+      "id": "demo",
+      "title": "Prototype demonstrations",
+      "kind": "VIDEO",
+      "url": "https://flat-hill.github.io/company/products/",
+      "note": "Company-supplied footage; edited highlights are qualitative, not acceptance tests.",
+      "source_ids": [
+        "media-public"
+      ]
+    },
+    {
+      "id": "bom",
+      "title": "Component budget assumptions",
+      "kind": "JSON",
+      "url": "https://flat-hill.github.io/matter-poise/bom-assumptions.json",
+      "note": "Scenario quantities, budget inputs and exclusions; not a supplier quote.",
+      "source_ids": [
+        "bom"
+      ]
+    },
+    {
+      "id": "revenue",
+      "title": "Commercial scenario",
+      "kind": "JSON",
+      "url": "https://flat-hill.github.io/matter-poise/commercial-model.json",
+      "note": "Hypothetical annual component sales model; not current revenue or pipeline.",
+      "source_ids": [
+        "revenue"
+      ]
+    },
+    {
+      "id": "sources",
+      "title": "External source directory",
+      "kind": "LINKS",
+      "url": "https://flat-hill.github.io/matter-poise/sources.html",
+      "note": "Primary sources with dated scope notes. Recheck changing facts.",
+      "source_ids": [
+        "company"
+      ]
+    }
+  ],
+  "document_requests": [
+    {
+      "id": "entity",
+      "topic": "financing",
+      "title": "Entity, ownership and cap table",
+      "status": "Request from team",
+      "priority": "Initial review",
+      "purpose": "Confirm the contracting entity, ownership and financing structure.",
+      "claims": [
+        "identity",
+        "raise"
+      ]
+    },
+    {
+      "id": "financials",
+      "topic": "financing",
+      "title": "Financial statements, cash plan and round assumptions",
+      "status": "Request from team",
+      "priority": "Initial review",
+      "purpose": "Separate historical performance from plans; examine runway and milestone financing.",
+      "claims": [
+        "raise",
+        "economics"
+      ]
+    },
+    {
+      "id": "customers",
+      "topic": "commercial",
+      "title": "Customer traction and pipeline evidence",
+      "status": "Request from team",
+      "priority": "Initial review",
+      "purpose": "Distinguish discussions, paid evaluations, orders, delivery and recognized revenue.",
+      "claims": [
+        "buyers",
+        "economics"
+      ]
+    },
+    {
+      "id": "readiness",
+      "topic": "product",
+      "title": "SKU readiness and acceptance evidence",
+      "status": "Request from team",
+      "priority": "Initial review",
+      "purpose": "Connect each demonstrated or offered revision to test and delivery records.",
+      "claims": [
+        "products",
+        "media"
+      ]
+    },
+    {
+      "id": "costs",
+      "topic": "economics",
+      "title": "Quoted BOM and fully loaded cost bridge",
+      "status": "Request from team",
+      "priority": "Initial review",
+      "purpose": "Test component assumptions, good-unit cost and achievable margin.",
+      "claims": [
+        "unitcost",
+        "costscope"
+      ]
+    },
+    {
+      "id": "rights",
+      "topic": "ip",
+      "title": "IP chain of title and license inventory",
+      "status": "Request from team",
+      "priority": "Initial review",
+      "purpose": "Identify ownership, contributor assignments and third-party dependencies.",
+      "claims": [
+        "ip",
+        "modules"
+      ]
+    },
+    {
+      "id": "compliance",
+      "topic": "ip",
+      "title": "Product-specific origin and regulatory evidence",
+      "status": "Request from team",
+      "priority": "Technical review",
+      "purpose": "Assess the actual SKU and current rules using traceable evidence.",
+      "claims": [
+        "origin",
+        "fcc"
+      ]
+    },
+    {
+      "id": "quality",
+      "topic": "product",
+      "title": "Production, quality and field-service records",
+      "status": "Request from team",
+      "priority": "Technical review",
+      "purpose": "Test repeatability, yield, traceability and service cost at a stated volume.",
+      "claims": [
+        "products",
+        "factory"
+      ]
+    },
+    {
+      "id": "software",
+      "topic": "software",
+      "title": "ROSE demonstration and validation records",
+      "status": "Request from team",
+      "priority": "Technical review",
+      "purpose": "Separate implemented capabilities, human review and planned functionality.",
+      "claims": [
+        "rose"
+      ]
+    },
+    {
+      "id": "capacity",
+      "topic": "software",
+      "title": "U.S. manufacturing plan and capex support",
+      "status": "Request from team",
+      "priority": "Technical review",
+      "purpose": "Connect demand, process milestones and capital deployment.",
+      "claims": [
+        "factory",
+        "raise"
+      ]
+    },
+    {
+      "id": "team",
+      "topic": "team",
+      "title": "Role-based experience and program references",
+      "status": "Request from team",
+      "priority": "Initial review",
+      "purpose": "Verify prior-career delivery scope without confusing it with company traction.",
+      "claims": [
+        "team"
+      ]
+    }
+  ],
+  "claim_url": "claims.json",
+  "privacy": "Questions and selections remain in page memory until you reload or close the page. No questions are sent automatically. Copy, download and opening an email draft are user actions. Hosting may process normal page requests; your chosen AI has its own data policies."
+}

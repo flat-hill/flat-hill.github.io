@@ -14,7 +14,13 @@ Robotics & Intelligent Machines. Matter, poised to act.
 - [Structured product data](https://flat-hill.github.io/company/catalog.json): source values, design targets, pending values and conflicts remain distinct.
 Detailed CAD, SDK, firmware, test evidence and manufacturing packages require a project-specific team handoff; no authenticated portal is offered here.
 
-## Separate investor materials
+## Investment Relations
+- [Agent Based Pitch Flow](https://flat-hill.github.io/company/investment-relations/): how investors can begin evidence-based research using their own AI assistant, then follow up with the team.
 - [Investor presentation](https://flat-hill.github.io/matter-poise/): independently maintained business presentation.
-- [Investor Agent](https://flat-hill.github.io/matter-poise/agent/): dated briefing and portable Skill, not a live team connection.
+- [Investor DD workspace](https://flat-hill.github.io/matter-poise/agent/#workspace): source-linked editorial Q&A, topic selection and an exportable evidence-request list.
+- [Public investor briefing](https://flat-hill.github.io/matter-poise/agent/brief.txt): versioned evidence register and critical research guidance for the investor's own AI assistant.
+- [Uploadable briefing](https://flat-hill.github.io/matter-poise/agent/investor-dd-brief.md): self-contained fallback when the AI assistant cannot read links.
+- [Public Data Room index](https://flat-hill.github.io/matter-poise/agent/#dataroom): public documents and generic team-request categories; no private files or authenticated access.
+- [Portable Skill](https://flat-hill.github.io/matter-poise/agent/SKILL.md): optional instructions for hosts that support Skills; not a universal installation or live team connection.
+The DD workspace is a public test version. Curated answers are not live model inference; the investor's AI cannot access the local management playbook. AI is auxiliary, and material company commitments require written team confirmation.
 Company experience, development targets and future plans must not be treated as verified company traction, final specifications or current production capacity.

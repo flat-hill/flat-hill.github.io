@@ -1,0 +1,5 @@
+(()=>{'use strict';
+const prompt='Act as my independent, critical due-diligence research assistant for MATTER POISE: read https://flat-hill.github.io/matter-poise/agent/brief.txt, state its date and what you could retrieve, then interview me about my investment focus and investigate it with citations, separating evidence, management claims, assumptions and unknowns; challenge the thesis and build an evidence-request list. If you cannot open the brief, ask me to upload it; never invent access to private documents.';
+const field=document.querySelector('#ir-prompt-text'),button=document.querySelector('#ir-copy'),status=document.querySelector('#ir-copy-status');field.value=prompt;
+button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(prompt);status.textContent='Copied. Paste into ChatGPT or your preferred AI to begin.';}catch{document.querySelector('#ir-prompt').open=true;field.focus();field.select();status.textContent='Select and copy the prompt below. Your browser did not allow clipboard access.';}});
+})();

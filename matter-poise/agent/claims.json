@@ -1,29 +1,33 @@
 {
-  "version": "1.0.0",
-  "published": "2026-10-13",
+  "version": "2.0.0",
+  "published": "2026-10-14",
   "knowledge_as_of": "2026-10-12",
-  "brand_as_of": "2026-10-13",
+  "brand_as_of": "2026-10-14",
   "company": "MATTER POISE",
   "claims": [
     {
       "id": "identity",
       "title": "Company positioning",
       "status": "Company positioning",
-      "statement": "MATTER POISE is the current company name and public brand, positioned as a U.S. AI-driven hardware R&D and manufacturing company. Its strategy connects self-developed actuation, engineering services, production supply and planned software workflows.",
+      "statement": "MATTER POISE is positioned as a U.S. AI-driven hardware R&D and manufacturing company based in Georgia, U.S. The company connects self-developed actuation, engineering services, production supply and planned software workflows. The team confirms info@matterpoise.com as its contact address.",
       "sources": [
-        "company"
+        "corporate",
+        "contact"
       ],
-      "qualification": "Corporate incorporation, ownership, operating locations and legal contracting entity require team-provided documents; positioning alone does not establish them."
+      "qualification": "Location and contact are management-confirmed. Incorporation, ownership and the legal contracting entity still require company documents; public positioning alone does not establish them.",
+      "as_of": "2026-10-14"
     },
     {
       "id": "products",
       "title": "Hardware portfolio",
       "status": "Management-reported engineering",
-      "statement": "The portfolio includes micro drives, larger joint modules, dexterous hands, quadrupeds, spherical robots and dual-arm platforms. Shared modules are intended to reduce redesign and simplify production transfer.",
+      "statement": "The portfolio includes micro drives, larger joint modules, FlatHill dexterous manipulation end-effectors, GROUNDWISE mobile systems, WAYROUND spherical systems and a separate Matter Poise dual-arm integration platform. Shared modules are intended to reduce redesign and simplify production transfer.",
       "sources": [
-        "company"
+        "corporate",
+        "catalog"
       ],
-      "qualification": "Readiness varies by SKU. Product renders, prototype demonstrations and engineering plans do not prove that every product is commercially shipping or qualified for volume production."
+      "qualification": "Readiness varies by SKU. Product renders, prototype demonstrations and engineering plans do not prove that every product is commercially shipping or qualified for volume production.",
+      "as_of": "2026-10-14"
     },
     {
       "id": "modules",
@@ -33,7 +37,8 @@
       "sources": [
         "company"
       ],
-      "qualification": "Self-developed module architecture does not mean every motor, chip or input is fabricated internally. IP assignments, third-party licenses, performance and production maturity require diligence."
+      "qualification": "Self-developed module architecture does not mean every motor, chip or input is fabricated internally. IP assignments, third-party licenses, performance and production maturity require diligence.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "team",
@@ -43,7 +48,8 @@
       "sources": [
         "company"
       ],
-      "qualification": "These are not MATTER POISE shipments, current customer orders or audited company traction. Prior program responsibility and delivery references should be verified. No individual names are included in this public brief."
+      "qualification": "These are not MATTER POISE shipments, current customer orders or audited company traction. Prior program responsibility and delivery references should be verified. No individual names are included in this public brief.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "market",
@@ -54,7 +60,8 @@
         "a3-2025",
         "a3-2026"
       ],
-      "qualification": "Complete-robot order data, not a U.S.-only market or MATTER POISE component TAM. Do not add overlapping or different reporting periods. A3 publication dates: 6 Feb and 11 Aug 2026."
+      "qualification": "Complete-robot order data, not a U.S.-only market or MATTER POISE component TAM. Do not add overlapping or different reporting periods. A3 publication dates: 6 Feb and 11 Aug 2026.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "buyers",
@@ -64,7 +71,8 @@
       "sources": [
         "company"
       ],
-      "qualification": "Target segments are not signed customers. No current revenue, named customer commitments, purchase orders, backlog or conversion rates are verified in this public brief."
+      "qualification": "Target segments are not signed customers. No current revenue, named customer commitments, purchase orders, backlog or conversion rates are verified in this public brief.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "economics",
@@ -74,7 +82,8 @@
       "sources": [
         "revenue"
       ],
-      "qualification": "All inputs are hypothetical. This is not current revenue, a forecast, signed pipeline, TAM or investment return. Selling price is distinct from component budget; gross margin is not established."
+      "qualification": "All inputs are hypothetical. This is not current revenue, a forecast, signed pipeline, TAM or investment return. Selling price is distinct from component budget; gross margin is not established.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "unitcost",
@@ -84,7 +93,8 @@
       "sources": [
         "bom"
       ],
-      "qualification": "These are budget inputs, not supplier commitments, audited production cost or customer quotes. Controls exclude Jetson compute and drives already integrated in joint modules."
+      "qualification": "These are budget inputs, not supplier commitments, audited production cost or customer quotes. Controls exclude Jetson compute and drives already integrated in joint modules.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "platformcost",
@@ -94,7 +104,8 @@
       "sources": [
         "bom"
       ],
-      "qualification": "Dog assumes 12 leg joints plus four separately budgeted wheel drives and Orin NX 16GB. Hand assumes 20 micro drives and excludes external host compute. Sphere assumes an AGX Orin 64GB developer kit. Dual arms assume 14 arm joints plus two 20-drive hands. Quantities and unquoted line items are assumptions; DOF alone does not establish actuator count."
+      "qualification": "Dog assumes 12 leg joints plus four separately budgeted wheel drives and Orin NX 16GB. Hand assumes 20 micro drives and excludes external host compute. Sphere assumes an AGX Orin 64GB developer kit. Dual arms assume 14 arm joints plus two 20-drive hands. Quantities and unquoted line items are assumptions; DOF alone does not establish actuator count.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "costscope",
@@ -104,7 +115,8 @@
       "sources": [
         "bom"
       ],
-      "qualification": "Excludes end-product assembly, test labor, yield loss, freight, duty, tax, software, warranty and operating expense. It is not a landed COGS or retail price. Recalculate before proposing margin or savings."
+      "qualification": "Excludes end-product assembly, test labor, yield loss, freight, duty, tax, software, warranty and operating expense. It is not a landed COGS or retail price. Recalculate before proposing margin or savings.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "compute",
@@ -114,7 +126,8 @@
       "sources": [
         "nvidia"
       ],
-      "qualification": "Refresh pricing and availability for current procurement. Developer kits are for development; production uses an appropriate module and carrier / thermal design. No NVIDIA partnership is asserted."
+      "qualification": "Refresh pricing and availability for current procurement. Developer kits are for development; production uses an appropriate module and carrier / thermal design. No NVIDIA partnership is asserted.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "origin",
@@ -126,7 +139,8 @@
         "far",
         "cost"
       ],
-      "qualification": "Brand nationality and a U.S. invoice do not prove the purchased lot’s origin. Allocation, actual price and declarations must be confirmed. No actual domestic-content percentage is established by the public BOM."
+      "qualification": "Brand nationality and a U.S. invoice do not prove the purchased lot’s origin. Allocation, actual price and declarations must be confirmed. No actual domestic-content percentage is established by the public BOM.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "fcc",
@@ -139,7 +153,8 @@
         "cost",
         "ftc"
       ],
-      "qualification": "Check current primary rules and the finished SKU. Fixed industrial arms and mobile platforms can have different scope. Normal equipment authorization is separate. No MATTER POISE FCC approval, legal eligibility determination or unconditional Made in USA claim is established. Do not infer permanent chip exemptions; FTC origin claims have a separate standard."
+      "qualification": "Check current primary rules and the finished SKU. Fixed industrial arms and mobile platforms can have different scope. Normal equipment authorization is separate. No MATTER POISE FCC approval, legal eligibility determination or unconditional Made in USA claim is established. Do not infer permanent chip exemptions; FTC origin claims have a separate standard.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "ip",
@@ -150,17 +165,20 @@
         "company",
         "ip"
       ],
-      "qualification": "Completed FTO, clean title and patent registrations are not verified by this brief. Financing geography, a U.S. entity or filing a patent does not establish FTO or FCC eligibility."
+      "qualification": "Completed FTO, clean title and patent registrations are not verified by this brief. Financing geography, a U.S. entity or filing a patent does not establish FTO or FCC eligibility.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "rose",
       "title": "ROSE software",
       "status": "Management-reported prototype / roadmap",
-      "statement": "ROSE is the software layer for two DraftGPT workflows: from scratch to demo and from demo to mass production. Management reports an early prototype; commercialization is planned after 2027.",
+      "statement": "ROSE is proprietary AI-assisted engineering software in development. Its proposed workflows connect from-scratch-to-demo and demo-to-manufacturing work. Management reports an early prototype; the investor roadmap places commercialization in a post-2027 stage, subject to validation.",
       "sources": [
-        "company"
+        "company",
+        "rose-public"
       ],
-      "qualification": "The website workflow is an explainer, not a working software demo or verified shipped capability. No current ARR, paid subscriptions or measured engineering productivity gain is established."
+      "qualification": "The public workflow is an explainer, not a working software demo or verified shipped capability. No current ARR, paid subscriptions, measured engineering productivity gain or committed launch date is established.",
+      "as_of": "2026-10-14"
     },
     {
       "id": "factory",
@@ -170,27 +188,31 @@
       "sources": [
         "company"
       ],
-      "qualification": "No completed lights-out factory, autonomous factory capability, guaranteed cost reduction or fixed completion date is established. Expansion depends on demand, yield, good-unit economics and reliable exception handling."
+      "qualification": "No completed lights-out factory, autonomous factory capability, guaranteed cost reduction or fixed completion date is established. Expansion depends on demand, yield, good-unit economics and reliable exception handling.",
+      "as_of": "2026-10-12"
     },
     {
       "id": "raise",
       "title": "Fundraising",
       "status": "Working financing plan",
-      "statement": "The September 2026 materials use an ~$8–10M seed planning range. The $10M case allocates ~$2M to equipment, ~$3M to team / operations, ~$3M to R&D / materials / transfer and ~$2M to working capital / contingency.",
+      "statement": "Management confirms an approximately $8–10M seed fundraising planning range as of 14 October 2026. The illustrative $10M case allocates about $2M to equipment, $3M to team and operations, $3M to R&D, materials and transfer, and $2M to working capital and contingency.",
       "sources": [
         "company"
       ],
-      "qualification": "Not money already raised, confirmed round terms or a live securities offer. Valuation, runway, cap table, investor commitments and final terms require team confirmation. Do not recommend an investment or promise returns."
+      "qualification": "This is a plan, not money already raised or confirmed round terms. The final amount, valuation, runway, cap table, commitments and allocation require current team confirmation.",
+      "as_of": "2026-10-14"
     },
     {
       "id": "media",
       "title": "Demonstrations",
       "status": "Published media with provenance",
-      "statement": "The website has eight company-supplied prototype / simulation clips and two official NVIDIA technology references. Exploded views are AI-assisted conceptual illustrations.",
+      "statement": "Company-published materials include prototype demonstrations and simulation footage. The corporate website also offers edited GROUNDWISE, FlatHill and English-language WAYROUND inspection demonstrations. Investor exploded views are AI-assisted conceptual illustrations; official NVIDIA references are external context.",
       "sources": [
-        "company"
+        "company",
+        "media-public"
       ],
-      "qualification": "Clips are qualitative, not independent performance or reliability validation. Simulation is not real-world operation. External references are not customer, partnership or endorsement evidence."
+      "qualification": "Clips are qualitative, not independent performance, safety or reliability validation. Editing and translation do not add validation. Simulation is not real-world operation. External references are not customer, partnership or endorsement evidence.",
+      "as_of": "2026-10-14"
     }
   ],
   "references": {
@@ -268,6 +290,37 @@
       "title": "Illustrative revenue model",
       "url": "https://flat-hill.github.io/matter-poise/commercial-model.json",
       "note": "Hypothetical steady-state component-sales cohort, not a forecast."
+    },
+    "corporate": {
+      "id": "corporate",
+      "title": "MATTER POISE corporate website",
+      "url": "https://flat-hill.github.io/",
+      "note": "Company-published positioning and product families; not independent validation."
+    },
+    "contact": {
+      "id": "contact",
+      "title": "MATTER POISE company contact",
+      "url": "https://flat-hill.github.io/company/contact/",
+      "note": "Georgia, U.S. and info@matterpoise.com confirmed by management; not incorporation or office-title evidence."
+    },
+    "catalog": {
+      "id": "catalog",
+      "title": "Public product handbook and model catalog",
+      "url": "https://flat-hill.github.io/company/docs/",
+      "note": "Curated public technical information. Reported values and targets retain qualifications; request release-specific validation."
+    },
+    "rose-public": {
+      "id": "rose-public",
+      "title": "ROSE development overview",
+      "url": "https://flat-hill.github.io/company/rose/",
+      "note": "Company description of software in development; not a hosted software demonstration."
+    },
+    "media-public": {
+      "id": "media-public",
+      "title": "Company-supplied product demonstrations",
+      "url": "https://flat-hill.github.io/company/products/",
+      "note": "Edited highlights and full demonstrations; qualitative evidence only."
     }
-  }
+  },
+  "release_note": "Public DD test workspace. Source-specific dates remain authoritative; this release does not re-verify all underlying claims."
 }
