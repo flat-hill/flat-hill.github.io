@@ -16,7 +16,13 @@ const films={
  "groundwise-demo-2":{"title": "GROUNDWISE \u00b7 Wheel-legged motion \u00b7 extended demo", "kind": "Prototype demonstration"},
  "groundwise-demo-3":{"title": "GROUNDWISE \u00b7 Mobility and balance", "kind": "Prototype demonstration"},
  "groundwise-demo-4":{"title": "GROUNDWISE \u00b7 Ride-on prototype demonstration", "kind": "Prototype demonstration"},
- "flathill-demo":{"title": "FlatHill \u00b7 Finger articulation \u00b7 new prototype demo", "kind": "Prototype demonstration"}
+ "flathill-demo":{"title": "FlatHill \u00b7 Finger articulation \u00b7 new prototype demo", "kind": "Prototype demonstration"},
+ "groundwise-highlights-1":{"title": "Indoor mobility \u00b7 highlights", "kind": "Edited prototype highlights"},
+ "groundwise-highlights-2":{"title": "Wheel-legged motion \u00b7 highlights", "kind": "Edited prototype highlights"},
+ "groundwise-highlights-3":{"title": "Mobility and balance \u00b7 highlights", "kind": "Edited prototype highlights"},
+ "groundwise-highlights-4":{"title": "Ride-on prototype \u00b7 highlights", "kind": "Edited prototype highlights"},
+ "flathill-highlights":{"title": "Finger articulation \u00b7 highlights", "kind": "Edited prototype highlights"},
+ "groundwise-motion-reel":{"title": "GROUNDWISE \u00b7 motion highlights", "kind": "Edited prototype highlights"}
 };
 const dialog=$('.film-dialog'),video=$('video',dialog);let filmTrigger;
 $$('[data-film]').forEach(b=>b.addEventListener('click',()=>{const id=b.dataset.film,f=films[id];if(!f)return;filmTrigger=b;$('#film-title').textContent=f.title;$('.film-caption').textContent=f.kind+' · Company-supplied footage. '+(f.kind==='Simulation'?'A simulated environment, not a real-world robot demonstration.':'A qualitative demonstration, not a performance specification or independent validation.');video.poster='/company/assets/'+id+'.jpg';video.src='/company/assets/'+id+'.mp4';dialog.showModal();document.body.style.overflow='hidden';video.play().catch(()=>{});}));

@@ -1,0 +1,53 @@
+{
+  "basis": "Selected excerpts at original speed; full prototype demonstrations remain accessible.",
+  "videos": [
+    {
+      "id": "groundwise-highlights-1",
+      "title": "Indoor mobility \u00b7 highlights",
+      "duration": 18.0,
+      "video": "/company/assets/groundwise-highlights-1.mp4",
+      "poster": "/company/assets/groundwise-highlights-1.jpg",
+      "original_id": "groundwise-demo-1"
+    },
+    {
+      "id": "groundwise-highlights-2",
+      "title": "Wheel-legged motion \u00b7 highlights",
+      "duration": 40.0,
+      "video": "/company/assets/groundwise-highlights-2.mp4",
+      "poster": "/company/assets/groundwise-highlights-2.jpg",
+      "original_id": "groundwise-demo-2"
+    },
+    {
+      "id": "groundwise-highlights-3",
+      "title": "Mobility and balance \u00b7 highlights",
+      "duration": 23.0,
+      "video": "/company/assets/groundwise-highlights-3.mp4",
+      "poster": "/company/assets/groundwise-highlights-3.jpg",
+      "original_id": "groundwise-demo-3"
+    },
+    {
+      "id": "groundwise-highlights-4",
+      "title": "Ride-on prototype \u00b7 highlights",
+      "duration": 11.0,
+      "video": "/company/assets/groundwise-highlights-4.mp4",
+      "poster": "/company/assets/groundwise-highlights-4.jpg",
+      "original_id": "groundwise-demo-4"
+    },
+    {
+      "id": "flathill-highlights",
+      "title": "Finger articulation \u00b7 highlights",
+      "duration": 14.0,
+      "video": "/company/assets/flathill-highlights.mp4",
+      "poster": "/company/assets/flathill-highlights.jpg",
+      "original_id": "flathill-demo"
+    },
+    {
+      "id": "groundwise-motion-reel",
+      "title": "GROUNDWISE \u00b7 motion highlights",
+      "duration": 30.0,
+      "video": "/company/assets/groundwise-motion-reel.mp4",
+      "poster": "/company/assets/groundwise-motion-reel.jpg",
+      "original_id": "multiple"
+    }
+  ]
+}
