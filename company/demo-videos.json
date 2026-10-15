@@ -4,53 +4,49 @@
       "id": "groundwise-demo-1",
       "title": "Indoor mobility",
       "duration": 91.833333,
-      "video": "/company/assets/groundwise-demo-1.mp4?v=doglab20261014",
-      "poster": "/company/assets/groundwise-demo-1.jpg?v=doglab20261014",
+      "video": "/company/assets/groundwise-demo-1.mp4?v=dogoriginal20261015",
+      "poster": "/company/assets/groundwise-demo-1.jpg?v=dogoriginal20261015",
       "type": "Full demo · original setting",
-      "version": "doglab20261014",
+      "version": "dogoriginal20261015",
       "playback_speed": 1,
       "background": "Original setting",
-      "people": "Anonymized",
-      "caption": "Original-speed prototype footage; people anonymized. Original setting retained."
+      "caption": "Original-speed prototype footage. Original setting retained."
     },
     {
       "id": "groundwise-demo-2",
       "title": "Wheel-legged motion · extended demo",
       "duration": 261.433333,
-      "video": "/company/assets/groundwise-demo-2.mp4?v=doglab20261014",
-      "poster": "/company/assets/groundwise-demo-2.jpg?v=doglab20261014",
+      "video": "/company/assets/groundwise-demo-2.mp4?v=dogoriginal20261015",
+      "poster": "/company/assets/groundwise-demo-2.jpg?v=dogoriginal20261015",
       "type": "Full demo · original setting",
-      "version": "doglab20261014",
+      "version": "dogoriginal20261015",
       "playback_speed": 1,
       "background": "Original setting",
-      "people": "Anonymized",
-      "caption": "Original-speed prototype footage; people anonymized. Original setting retained."
+      "caption": "Original-speed prototype footage. Original setting retained."
     },
     {
       "id": "groundwise-demo-3",
       "title": "Mobility and balance",
       "duration": 83.766667,
-      "video": "/company/assets/groundwise-demo-3.mp4?v=doglab20261014",
-      "poster": "/company/assets/groundwise-demo-3.jpg?v=doglab20261014",
+      "video": "/company/assets/groundwise-demo-3.mp4?v=dogoriginal20261015",
+      "poster": "/company/assets/groundwise-demo-3.jpg?v=dogoriginal20261015",
       "type": "Full demo · original setting",
-      "version": "doglab20261014",
+      "version": "dogoriginal20261015",
       "playback_speed": 1,
       "background": "Original setting",
-      "people": "Anonymized",
-      "caption": "Original-speed prototype footage; people anonymized. Original setting retained."
+      "caption": "Original-speed prototype footage. Original setting retained."
     },
     {
       "id": "groundwise-demo-4",
       "title": "Ride-on prototype demonstration",
       "duration": 31.6,
-      "video": "/company/assets/groundwise-demo-4.mp4?v=doglab20261014",
-      "poster": "/company/assets/groundwise-demo-4.jpg?v=doglab20261014",
+      "video": "/company/assets/groundwise-demo-4.mp4?v=dogoriginal20261015",
+      "poster": "/company/assets/groundwise-demo-4.jpg?v=dogoriginal20261015",
       "type": "Full demo · original setting",
-      "version": "doglab20261014",
+      "version": "dogoriginal20261015",
       "playback_speed": 1,
       "background": "Original setting",
-      "people": "Anonymized",
-      "caption": "Original-speed prototype footage; people anonymized. Original setting retained."
+      "caption": "Original-speed prototype footage. Original setting retained."
     },
     {
       "id": "flathill-demo",
@@ -59,6 +55,48 @@
       "video": "/company/assets/flathill-demo.mp4",
       "poster": "/company/assets/flathill-demo.jpg",
       "type": "Prototype demonstration"
+    },
+    {
+      "id": "flathill-model-demo",
+      "duration": 12.166667,
+      "width": 720,
+      "height": 1280,
+      "title": "Hand motion & model view",
+      "video": "/company/assets/flathill-model-demo.mp4?v=hand20261015",
+      "poster": "/company/assets/flathill-model-demo.jpg?v=hand20261015",
+      "type": "Edited prototype demonstration",
+      "version": "hand20261015",
+      "playback_speed": 1,
+      "caption": "Original-speed prototype footage showing a physical hand prototype and an on-screen model.",
+      "edl": [
+        {
+          "start": 1.0,
+          "end": 13.2,
+          "duration": 12.2
+        }
+      ],
+      "original_id": null
+    },
+    {
+      "id": "flathill-load-demo",
+      "duration": 17.766667,
+      "width": 720,
+      "height": 1284,
+      "title": "Suspended-load demonstration",
+      "video": "/company/assets/flathill-load-demo.mp4?v=hand20261015",
+      "poster": "/company/assets/flathill-load-demo.jpg?v=hand20261015",
+      "type": "Edited prototype demonstration",
+      "version": "hand20261015",
+      "playback_speed": 1,
+      "caption": "Original-speed footage of a suspended-load setup. The clip does not establish a rated payload or independently validated performance.",
+      "edl": [
+        {
+          "start": 87.0,
+          "end": 104.8,
+          "duration": 17.8
+        }
+      ],
+      "original_id": null
     }
   ]
 }
